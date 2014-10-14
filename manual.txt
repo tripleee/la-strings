@@ -1,0 +1,549 @@
+	       LA-STRINGS version 1.22 - USER'S MANUAL
+	       =======================================
+
+The 'la-strings' program is used to extract sequences of text from
+arbitrary files in a language-aware manner.
+
+Commandline options control the program's operation.  These options
+fall into two categories: controlling the search for textual strings,
+and controlling their presentation.  Options which take a mandatory
+parameter string may be written either contiguously with the string or
+have whitespace separating the flag and the string, i.e. both
+	-lEnglish
+and
+	-l English
+are correct.  Where the parameter string is optional, only the first
+form is allowed.
+
+
+CONTROLLING SEARCH
+------------------
+
+You may specify a character encoding, a language (which will select a
+subset of the possible characters in the encoding as being of particular
+interest), a list of words for the language of interest, and the minimum
+length of strings to extract.  The search may additionally be restricted
+to a portion of the file and candidate strings may be filtered.
+
+    -e SET
+    -e SET1,SET2,...
+	Specify the character encoding to be used.  Encodings include
+	ASCII, Latin-1 (ISO-8859-1), Latin-2 (ISO-8859-2), UTF-8,
+	UTF-16 and UTF-32 in both little-endian and big-endian
+	versions, GB-2312, GBK, and Big5.  For a complete list of the
+	encodings which are known to the program, use "-e list".
+
+	For compatibility with GNU 'strings', this program will also accept
+	several one-letter values for the SET parameter:
+	    s	ASCII		7-bit characters
+	    S	Latin-1		8-bit characters
+	    l	ASCII-16LE	ASCII encoded in little-endian 16-bit values
+	    b	ASCII-16LE	ASCII encoded in big-endian 16-bit values
+	    L   UTF-32LE	Unicode encoded as little-endian 32-bit
+	    B	UTF-32BE	Unicode encoded as big-endian 32-bit values
+	    e	EUC		Extended Unix Character encoding
+	    u	UTF-8
+
+	You may also specify the encoding name "auto" in conjunction
+	with language identification (see -i).  When language
+	identification is enabled, the default character set changes
+	from ASCII to "auto".
+
+	Multiple encoding names may be specified, separated by commas.
+	If more than one encoding is specified, all strings which match
+	any of the encodings will be extracted.
+
+    -e=DB
+	Apply automatic character-set detection using the language
+	models contained in the database file DB.  This option only
+	has effect if also performing language identification (see -i
+	below).  As a special case, if DB is the empty string,
+	i.e. "-e=" is given, character set identification will use the
+	same language models as language identification even if a
+	separate character-set identification database would be used
+	by default.
+
+    -l LANG
+	Specify the language of interest, and thus the alphabet within
+	the given character encoding.  The supported alphabets vary by
+	encoding; for a list of the languages supported by a given
+	encoding, use
+		-e ENCODING -l list
+	Most encodings support at least "English" and "Euro".  The former
+	considers upper- and lower-case letters 'A' through 'Z' and the
+	digits '0' through '9' to be desireable characters to have in a
+	text string, while the latter adds the various accented letters
+	used by western European languages.
+
+    -L FILE
+	Read the characters of interest from FILE.  The program will
+	read the first line and interpret it as a comma separated list
+	of codepoint values and ranges.  For example, the definition
+	would be
+		  32,48-57,65-90,97-122
+	to include only spaces, digits, and upper/lowercase unaccented
+	letters in encodings which include ASCII as a subset.
+
+	For full details of how the encoded bytes map to codepoints for
+	multi-byte encodings other than the Unicode-* and UTF-* encodings
+	(which use the method defined by the standard), please consult
+	the source code.
+
+    -L=....
+	Same as "-L FILE", except the characters of interest are specified
+	after the equal sign.
+
+    -w WORDFILE
+    -w WORD1,WORD2,...
+	Read a list of valid words from WORDFILE, where each line of
+	WORDFILE is considered to be a word.  This list of words is
+	used in scoring candidate strings -- the larger the proportion
+	of known words in the string, the higher its score.
+
+	If multiple encodings have been specified with -e, you must
+	give the same number of word-list files with -w.  However, the
+	word list for an encoding may be omitted by giving the empty
+	name, e.g. if lists are only available for the first and third
+	encodings, use
+		-w WORD1,,WORD3
+	and if a word list is only available for the second of two
+	encodings, use
+		-w ,WORD2
+
+	Note that a large word list (such as /usr/share/dict/words on
+	a Linux system, with about half a million entries) can take
+	several seconds to load.  It may be advisable to run the scan
+	on numerous files at once instead of one file at a time when
+	using this option.
+
+    -F g,d,a
+    -F @g,d,a
+    	Control the filtering of candidate strings.  The three values
+	specify, respectively, the maximum gap, the percentage of the
+	string which must consist of "desired" characters, and the
+	percentage of the string which must consist of alphanumeric
+	characters (letters and digits).  The optional '@' specifies
+	that newline and carriage return characters are to be
+	considered part of a string, permitting multi-line strings to
+	be processed as a unit (in some circumstances, this may allow
+	a sequence of lines shorter than the minimum specified with -n
+	to be extracted successfully, but will also increase the
+	number of spurious strings).
+
+	The maximum gap specified by the 'g' value is the maximum
+	number of consecutive characters which are not in the set of
+	"desired" characters for the language specification given by
+	-l or -L.  Once 'g' non-desired characters have been seen, the
+	current string is terminated as though an invalid byte
+	sequence had been encountered, and the string up to that point
+	is scored normally.
+
+	If any of 'g', 'd', or 'a' is blank, the default value will be
+	used.  Trailing values may be omitted entirely, in which case
+	they will also be set to their defaults.
+
+    -r S,E
+	Restrict the scan to bytes S through E of the file.  If
+	omitted, S defaults to 0 (start of file) and E defaults to the
+	size of the file.  If it is known that all text resides in a
+	particular portion of the file, using this option will reduce
+	the number of spurious strings extracted as well as speeding
+	up the scan.
+
+    -n N
+	Do not consider sequences of less than N valid characters to
+	be a string of text.  The default value of N is 4, and it is
+	not advisable to use a smaller value because the number of
+	spurious sequences will increase dramatically for most
+	character encodings, and increase noticeably even for UTF-8
+	unless restricting outputs to non-ASCII alphabets.
+
+
+LA-Strings can perform language identification using a database of
+statistical information about various languages.  This database is
+generated from training data using the "mklangid" program (see its
+documentation for additional information on the training process).
+The following options control the language identification:
+
+    -i
+    -i+
+    -iFILE
+    -i+FILE
+
+	Perform language identification using the language database
+	FILE, or a default database
+	(e.g. /usr/share/langident/languages.db or ./languages.db) if
+	FILE is omitted.  If this parameter is given and no language
+	or character encoding are specified (-l and -e, see above),
+	the special language and encoding "Auto" are used, which tells
+	LA-Strings to use the language database to perform a rough
+	language and encoding classification before extracting
+	strings.  When using automatic encoding detection, strings are
+	filtered by score as if -S7 were specified; the threshold may
+	be adjusted with an explicit -S flag.
+
+	If the file "charsets.db" exists in the current directory or
+	in one of a number of standard locations, it is loaded and
+	used for character set identification (but see -e= above).  If
+	"charsets.db" is not available, character-set identification
+	will use the models in the main language database.  Note that
+	the primary purpose of the separate "charsets.db" is to
+	provide faster character-set identification by using fewer
+	language models.
+
+	The "plus" form of the command requests that the full language
+	name (if available) be printed instead of the short language
+	code.  Particularly for large language databases with many
+	similar dialects (such as the default database supplied with
+	LA-Strings), the full name may better allow you to see that
+	the detection is undecided between different dialects of a
+	language rather than completely unrelated languages as may
+	seem to be the case with short ISO language codes.
+
+	The default installation includes two optional alternative
+	databases called 'crubadan.db' and 'top100.db'.  'crubadan.db'
+	contains many additional languages using data provided by the
+	An Crubadan web crawler project.  The Crubadan models are
+	weaker because they consist solely of trigrams, and are for
+	the UTF-8 encoding only.  The optional 'top100.db' consists of
+	the subset of models for the 100 languages with the most
+	first-language speakers plus a few official EU languages which
+	don't quite make the top 100.  As this database has
+	substantially fewer models than the other two, it runs
+	considerably faster.
+
+    -i@
+	Perform language identification without inter-string score
+	smoothing.
+
+    -W SPEC
+	Control some of the weights used in scoring strings.  SPEC is
+	a comma-separated list of weight specifiers, which consist of
+	a single letter immediately followed by a decimal number.  The
+	currently supported weights are
+	    b  bigram scores (default 0.15)
+	    s  stopgrams (default 2.0)
+	Although this flag is primarily for development purposes,
+	setting bigram weights to zero with "-Wb0.0" results in a
+	three-fold speedup in language identification with minimal
+	increase in error rates, as summing the bigram counts takes
+	the bulk of the time during language identification. (As of
+	v1.15, the default language models included with LA-Strings no
+	longer include bigrams, so "-Wb" has no effect.)
+
+
+CONTROLLING PRESENTATION
+------------------------
+
+The program prints each extracted string on a separate line.  The
+following options control the formatting and destination of the
+output.
+
+    -s
+	Print the confidence score for each extracted string before
+	the string.  The scores are scaled such that values less than
+	10 are likely to be spurious byte sequences rather than actual
+	text, making them easy to distinguish visually.
+
+    -S[N]
+	Suppress output of strings with confidence scores less than N
+	(default 10).  This dramatically reduces the number of
+	spurious non-text strings at the cost of occasionally missing
+	a short string of actual text.  The default has been chosen
+	for a good trade-off; lower values will leave more spurious
+	strings but miss less actual text, while higher values will
+	reduce spurious strings even further but miss more real text.
+
+    -A
+	Print the alphabet (script or writing system) for each
+	language identification.  Useful for distinguishing romanized
+	text or determining which script was used for languages with
+	multiple official scripts.
+
+    -O
+    -Odir
+	Write the extracted strings to a separate output file for each
+	input file, instead of writing them to standard output.  The
+	output file name is constructed by adding ".strings" to the
+	base name of the file from which text is being extracted,
+	i.e. if the program is processing files bar/test1 and
+	test2.foo, the output will be written to test1.strings and
+	test2.foo.strings.  If the optional directory name is
+	given,the files will be written to that directory, which will
+	be created if it does not exist.
+
+    -f
+    	Print the name of the input file before each extracted string.
+	This is primarily useful when extracting from multiple files
+	in one invocation and not using the -O flag to create separate
+	output files.
+
+    -t X
+    -o
+	Print the offset of each extracted string within the input
+	file.  "X" specifies the radix in which to print: 'o' for
+	octal (base 8), 'd' for decimal, and 'x' for hexadecimal (base
+	16).  For GNU compatibility, -o is equivalent to -to.
+
+    -E
+	Print the name of the detected encoding before each string.
+
+    -I N
+	Output up to the top N guesses for the language of each
+	string, provided their scores are at least 85% of the highest
+	score.  By default, N = 2.  With -I0, language identification
+	is used to automatically determine which character encodings
+	to use for extraction, but no per-string language
+	identification is made unless -C is also specified (see
+	below).  LA-Strings will run faster without per-string
+	language identification, but will be less accurate at
+	filtering out non-text.
+
+    -u
+    -u8
+    -ub
+    -ul
+    -ur
+	Convert (to the extent possible) all extracted strings to
+	UTF encoding on output.  Multiple characters may be stacked,
+    	in which case the last specified overrides any previous ones:
+	    8   UTF-8 output (default if just -u specified)
+	    b   UTF-16BE output
+	    l   UTF-16LE output
+        If 'r' is specified, additionally output a second, romanized
+	version of each line when available.  Currently, only Arabic,
+	Armenian, Cyrillic, Devanagari, Georgian, Greek, Hebrew, and
+	Thai characters are supported; Arabic and Hebrew are normally
+	written without vowels, and the romanization can not restore
+	them.
+
+    -M
+	Use Microsoft-style CR-LF newlines even if running on a
+	Unix-style system.  When UTF-16 output is requested with -ub
+	or -ul, this option is required for CR-LF newlines on
+	Microsoft Windows as well as Unix.
+
+
+
+ADDITIONAL OPTIONS
+------------------
+
+    -v
+    	Run verbosely.  The program will output additional status and
+	progress messages.
+
+    -C
+	When identifying languages with -i, count the number of
+	strings of each language displayed, and display the list of
+	languages and counts in decreasing order after completing the
+	extraction.  Counts are collected even when per-string output
+	of the identified language is suppressed with -I0, thus -I0
+	will not alter speed or output when combined with -C.
+
+    --
+        End list of flags.  All additional arguments will be treated
+	as filenames, even if they begin with a hyphen.  If no
+        additional arguments are given, or any of the additional
+        arguments are "-", standard input will be read and processed.
+
+
+COMPATIBILITY WITH GNU STRINGS
+------------------------------
+
+In addition to the compatibility features mentioned above for
+individual options, this program also accepts the following flags,
+although they have no effect:
+
+    -a
+	Search all of the file.  This is the default for this program
+	anyway.
+
+    -T BFD
+        Specify a binary file format to control which portions of the
+	file are searched.  Use -r as appropriate if such a
+	restriction is required.
+
+
+BULK_EXTRACTOR SUPPORT
+======================
+
+Version 1.22 adds experimental support for use as a bulk_extractor
+plugin under Linux.  Use "make allclean ; make BULK_EXT=1" to build
+the plugin scan_strings.so.  Note that the current version of
+bulk_extractor requires adding "-Wl,--export-dynamic" to its link
+command while compiling; this may most easily be added to the
+definition of LDFLAGS in {bulk_extractor_top}/src/Makefile after that
+file is created with ./configure.
+
+When running as a plugin, LA-Strings honors bulk_extractor's debug
+(-d) flag's "print steps" and "info" bits, as well as the following
+settings variables which may be set with -s:
+   lastrings_langid	name of language identification database file
+   lastrings_charsetid	name of character set database file
+   lastrings_threshold	minimum score for string extraction
+   lastrings_longlang	boolean: show long (friendly) language names
+   lastrings_smoothing  boolean: perform inter-string score smoothing
+
+For boolean settings, "y", "t", and "1" mean enabled, "n", "f", and "0"
+mean disabled.  Any other values request the default (which is
+disabled for both lastrings_longlang and lastrings_smoothing).
+
+The LA-Strings bulk_extractor plugin generates four output files:
+   strings		language identification plus extracted string
+   strings_histogram	histogram of identified languages
+   encodings		identified encoding for each string
+   encodings_histogram  histogram of identified encodings
+Extracted strings are transcoded to UTF-8 if necessary, and a second
+romanized copy is output where appropriate.
+
+
+UTILITY SCRIPTS
+===============
+
+
+mktestset.sh
+------------
+
+Convert a text file into the format needed for eval.sh, by wrapping
+the text to a specified maximum length, stripping out wrapped lines of
+less than a minimum length, and optionally adding the language key to
+the start of the line.
+
+Usage:  mktestset.sh [-l language] min max file [file ...]
+
+The value for -l specifies the language code to add to the start of
+each line as the answer key; if it is "auto", the code will be
+extracted from the name of the file.  This requires that the input
+files are named ll_* or lll_*, where "ll" or "lll" is the language
+code to be used.
+
+Input lines will be wrapped to be at most "max" characters in length
+and then filtered to remove any wrapped lines containing less than
+"min" *bytes*.
+
+The output is written to $BASENAME-test-$min-$max.txt, where $BASENAME is
+the input file's name without path or extension and with "-test"
+removed if present.
+
+
+
+eval.sh
+-------
+
+This is the main scoring script for evaluating language identification
+accuracy.
+
+Options:
+    --db F
+	specify the language identification database to pass to
+	whatlang|la-strings.
+
+    --min N
+        require at least N lines to score an input file.
+
+    --max N
+	specify the maximum number of lines of the input file to
+	process (default 1000).
+
+    --minlen N
+	Filter out lines containing fewer than N bytes.  The filtering
+	is performed after --min and --max have been applied.
+
+    --maxlen N
+	Filter out lines containing more than N bytes.  The filtering
+	is performed after --min and --max have been applied.
+
+    --utf8
+	Force input to the language identifier to be in the UTF-8
+	encoding.  Conversion is based on strings in the input file's
+	name: "latin1", "latin2", "latin5", "euc-jp", "euc-kr",
+	"euc-tw", "win1250", "win1251", "win1252", and "win1256" are
+	supported.  Otherwise, the input file is assumed to be in
+	UTF-8 already.
+
+    --utf16be
+	As with --utf8, but force the UTF-16BE encoding.
+
+    --utf16le
+	As with --utf8, but force the UTF-16LE encoding.
+
+    --file
+	run language detection on the entire input file at once
+	instead of line-by-line.
+
+    --embed N
+	embed N random bytes between lines of text.  Requires the
+	add-random.sh helper script.
+
+    --equiv
+	Treat certain very-similar languages as equivalent when
+	scoring accuracy (fuzzy scoring).
+
+    --keep
+	Keep lines extracted by LA-Strings.
+
+    --misses
+
+    --thresh
+	set LA-Strings extraction threshold
+
+    --stopgrams X
+	set weight of stopgrams for whatlang|LA-Strings language
+	identification to X.
+
+    --overhead
+	Do everything except actual language identification, to
+	identify processing overhead (including language identifier
+	startup time).
+
+    --raw-only
+	Don't score language identification with inter-string
+	smoothing enabled.  Recommended when using one of the
+	alternative identifiers.
+
+    --langdetect D
+	Use Shuyo's LangDetect as the language identifier, with
+	trained language models in directory D.
+
+    --ldmem M
+	Limit LangDetect's memory usage to M megabytes.
+
+    --langid.py M
+	Use langid.py as the language identifier, with the trained
+	language model in file M.
+
+    --mguesser D
+        Use Mguesser as the language identifier, with trained language
+        models in directory D.
+
+    --textcat D
+	Use libtextcat as the language identifier, with trained
+	language models in directory D.
+
+    --fpsize N
+	Limit libtextcat's language fingerprints to N n-grams.
+
+Note that --langdetect, --langid.py, --mguesser, and --textcat are
+mutually exclusive.
+
+
+
+counts.sh
+---------
+
+This script runs language identification on the input file and outputs
+a list of the languages identified along with the frequency of each
+language.  Usage is very similary to eval.sh, except that the default
+maximum number of lines to process is 2000 instead of 1000.
+
+Options:
+    --db, --max, --stopgrams, --mguesser, --textcat, --langdetect,
+    --langid.py, --utf8, --utf16be, --utf16le:
+	see eval.sh above.
+
+    --smooth
+	Apply inter-string smoothing.
+
+
+
+======== END OF FILE ==========

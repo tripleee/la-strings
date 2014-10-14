@@ -1,0 +1,9 @@
+LA-Strings is distributed with the text versions of the language
+models rather than the binary databases.  Three
+language-identification databases and two character-set-identification
+databases can be built from these models by running the included
+makefile.  Only the default databases, 'languages.db' and
+'charsets.db', are built by the default make target; to build all of
+them, use 'make all', or explicitly build each of the alternate
+databases with 'make crubadan.db', 'make top100.db', or 'make
+top100-charsets.db'.

@@ -1,0 +1,3534 @@
+TotalCount: 1371608
+Lang: gvl=Gulay
+Script: Latin
+Region: TD
+Encoding: utf8
+Source: bibles.org
+Coverage: 0.966805
+WeightedCoverage: 7.50285
+FreqCoverage: 100
+MatchFactor: 1.85613
+183	\ An
+239	\ B…î
+392	\ Do
+389	\ Doo
+185	\ D√
+175	\ D√©
+844	\ E\ 
+193	\ Gi
+191	\ Gir
+181	\ Gir‚Ä
+279	\ I\ 
+221	\ Je
+539	\ Ju
+406	\ Juipg
+1976	\ J√
+176	\ J√©ru
+1684	\ J√©su
+453	\ Ke
+336	\ Ke\ 
+283	\ Ke\ n√
+482	\ Krist
+716	\ Ku
+621	\ Kuwe-
+530	\ K√
+462	\ K√©\ 
+233	\ Lo
+227	\ Loo
+195	\ Loo\ k
+801	\ Ma
+316	\ Maj
+279	\ Maje\ 
+451	\ Nd
+308	\ Ndil
+181	\ Ndil-
+466	\ Ng
+335	\ Ngonn
+264	\ Nj
+256	\ Nj√
+2342	\ Nube\ 
+201	\ Nube.
+567	\ Nube‚
+188	\ Ny
+186	\ Nya
+728	\ N√
+713	\ N√®
+319	\ Pa
+223	\ Paul\ 
+277	\ Pi
+203	\ Pierr
+205	\ Se
+186	\ Sei\ 
+313	\ T√
+243	\ T√†\ k
+2046	\ a\ 
+1538	\ a\ t…î
+1660	\ a,
+1607	\ a,\ 
+256	\ a,\ se
+2378	\ ad
+1739	\ ade\ 
+378	\ ade\ d
+228	\ ade\ n
+480	\ adi\ 
+1120	\ an
+335	\ an\ 
+567	\ an-in
+189	\ ar
+773	\ as
+596	\ ase
+265	\ ase\ 
+188	\ aseku
+177	\ asi
+1310	\ aw
+770	\ aw\ 
+208	\ aw\ se
+455	\ awi\ 
+978	\ ba
+189	\ bain\ 
+251	\ bat
+446	\ be
+298	\ bere\ 
+280	\ bu
+2257	\ b√
+1601	\ b√®\ 
+273	\ b√®\ g
+180	\ b√®\ l
+245	\ b√®\ t
+179	\ b√®\ √
+203	\ b√®\ …
+218	\ b√®.
+322	\ b√≤
+369	\ b…î
+2260	\ da
+2188	\ dan
+1106	\ dann\ 
+735	\ danr
+305	\ danra
+430	\ danr√
+5302	\ de
+3285	\ de\ 
+234	\ de\ a
+306	\ de\ d√
+307	\ de\ ed
+448	\ de\ k
+247	\ de\ ke
+511	\ de\ n
+261	\ de\ t
+251	\ de.
+268	\ deje\ 
+661	\ de‚Äô
+822	\ di
+762	\ din
+361	\ dinge
+379	\ dinye
+3652	\ doo
+1546	\ doo\ 
+905	\ doo\ k
+262	\ doo\ n
+1913	\ dooge
+417	\ du
+298	\ dum\ 
+7164	\ d√
+4628	\ d√®\ 
+194	\ d√®\ N
+506	\ d√®\ d
+226	\ d√®\ j
+392	\ d√®\ k
+205	\ d√®\ m
+1629	\ d√®\ n
+213	\ d√®\ r
+222	\ d√®\ s
+299	\ d√®\ t
+187	\ d√®\ …
+346	\ d√®nn
+757	\ d√®‚Ä
+1152	\ d√©\ 
+245	\ d√©\ n
+320	\ d√©\ t
+589	\ d…î
+259	\ d…î\ 
+224	\ d…îg
+2083	\ d‚Äô
+883	\ d‚Äôa
+248	\ d‚Äôe
+261	\ d‚Äôi
+430	\ d‚Äôu
+2982	\ ed
+327	\ ede\ d
+1675	\ ede\ n
+529	\ edi\ n
+865	\ ei
+860	\ ei\ 
+249	\ ei\ n
+950	\ ga
+195	\ gai
+489	\ gang
+214	\ gang\ 
+1045	\ ge
+844	\ ger
+353	\ ger\ 
+405	\ geri\ 
+1090	\ gi
+627	\ gir\ 
+1288	\ go
+636	\ go\ 
+273	\ goto
+855	\ gu
+245	\ gugu\ 
+340	\ gute-
+1067	\ g√
+648	\ g√©a\ 
+392	\ g√©a,
+183	\ he
+1989	\ i\ 
+278	\ i\ nd
+249	\ i\ ra
+456	\ i\ t
+676	\ il
+641	\ ile
+330	\ ile\ 
+229	\ ilei\ 
+1376	\ in
+529	\ in\ 
+200	\ in-in
+360	\ inge
+187	\ ingei
+264	\ inye
+821	\ ji
+418	\ ji\ 
+249	\ joo\ 
+2498	\ j√
+839	\ j√®\ 
+219	\ j√®\ n
+241	\ j√®i\ 
+1296	\ j√©
+324	\ j√©\ 
+543	\ j√©i\ 
+922	\ j‚Äô
+322	\ j‚Äôa
+6160	\ ka
+2378	\ kad
+2294	\ kade\ 
+289	\ kage
+203	\ kaiya
+336	\ kan
+271	\ kar√®
+1817	\ kar√©
+199	\ kaw\ 
+19973	\ ke
+17710	\ ke\ 
+335	\ ke\ J√
+261	\ ke\ Ma
+319	\ ke\ Nu
+488	\ ke\ a
+296	\ ke\ b√
+2081	\ ke\ d
+362	\ ke\ da
+267	\ ke\ do
+632	\ ke\ d√
+332	\ ke\ d‚
+240	\ ke\ ei
+303	\ ke\ g
+433	\ ke\ i
+205	\ ke\ i\ 
+188	\ ke\ in
+366	\ ke\ j
+1594	\ ke\ k
+315	\ ke\ ka
+239	\ ke\ ko
+648	\ ke\ k√
+243	\ ke\ l
+1271	\ ke\ m
+653	\ ke\ ma
+471	\ ke\ m‚
+3472	\ ke\ n
+450	\ ke\ na
+1013	\ ke\ nd
+196	\ ke\ ng
+935	\ ke\ nj
+655	\ ke\ n√
+1157	\ ke\ ra
+307	\ ke\ se
+1163	\ ke\ t
+660	\ ke\ t√
+398	\ ke\ u
+188	\ ke\ un
+196	\ ke\ √†
+425	\ ke\ √®
+183	\ ke\ …ì
+366	\ ke\ …î
+192	\ kebe\ 
+587	\ kei\ 
+223	\ kei\ k
+201	\ kei\ l
+886	\ kemÃÇ
+684	\ ki
+189	\ kile\ 
+255	\ kin
+1380	\ ko
+205	\ koje\ 
+225	\ kon
+276	\ koo
+196	\ koo‚Ä
+251	\ kosdo
+5470	\ ku
+464	\ kule\ 
+1547	\ kum
+813	\ kum\ 
+240	\ kum\ d
+194	\ kumga
+249	\ kum‚Ä
+476	\ kunde
+1893	\ kuwe
+1055	\ kuwe\ 
+402	\ kuwe,
+312	\ kuwe.
+4610	\ k√
+307	\ k√†de
+887	\ k√©t√
+2102	\ k√™m\ 
+231	\ k√™m‚
+1004	\ k…î
+317	\ k…îke
+283	\ k…îr
+297	\ la
+6927	\ le
+5301	\ le\ 
+209	\ le\ J
+218	\ le\ K
+815	\ le\ Nu
+689	\ le\ d
+404	\ le\ de
+188	\ le\ do
+299	\ le\ j√
+885	\ le\ ka
+455	\ le\ n
+223	\ le\ nj
+386	\ le\ si
+209	\ le\ t
+1368	\ le‚Äô
+2484	\ lo
+1845	\ loo\ 
+687	\ loo\ k
+187	\ loo\ n
+462	\ loo\ t
+329	\ loon‚
+3298	\ l√
+3218	\ l√©
+1521	\ l√©\ 
+346	\ l√©\ a
+243	\ l√©\ t
+179	\ l√©\ w
+351	\ l√©\ …
+276	\ l√©,\ 
+1279	\ l√©.
+584	\ l√©.\ 
+5179	\ ma
+351	\ made
+261	\ magtu
+1404	\ maje
+626	\ maje\ 
+611	\ majel
+1347	\ malan
+1264	\ man
+716	\ man\ 
+239	\ man\ m
+449	\ mann
+212	\ mann\ 
+218	\ mar
+1689	\ mb
+672	\ mba
+234	\ mbak\ 
+481	\ mbe
+214	\ mber\ 
+363	\ mbi
+245	\ mu
+3067	\ m‚Äô
+906	\ m‚Äôa
+552	\ m‚Äôe
+177	\ m‚Äôi
+278	\ m‚Äôn
+247	\ m‚Äôr
+259	\ m‚Äôt
+240	\ m‚Äôu
+4448	\ na
+221	\ nain\ 
+277	\ naje
+3250	\ nan
+881	\ nan\ 
+956	\ nang\ 
+461	\ nange
+649	\ nan‚Ä
+234	\ nar
+182	\ nata\ 
+7218	\ nd
+991	\ nda
+224	\ nda\ 
+503	\ ndan
+207	\ ndan\ 
+259	\ ndang
+176	\ nde
+2133	\ ndi
+761	\ ndi\ 
+177	\ ndi\ d
+184	\ ndi\ k
+284	\ ndige
+532	\ ndii\ 
+197	\ ndil
+382	\ ndo
+939	\ ndu
+258	\ ndu‚Ä
+830	\ nd√
+242	\ nd√†t
+175	\ nd√°
+1192	\ nd…î\ 
+254	\ ne
+9505	\ ng
+8086	\ nga
+4050	\ nga\ 
+291	\ nga\ a
+199	\ nga\ d
+203	\ nga\ g
+285	\ nga\ k
+366	\ nga\ l
+244	\ nga\ n
+526	\ nga\ t
+523	\ nga\ √
+309	\ nga\ …
+1782	\ nga,\ 
+432	\ nga.
+540	\ ngain
+371	\ ngann
+457	\ ngar
+197	\ ngar\ 
+203	\ ngara
+598	\ ngonn
+187	\ ng…îr
+781	\ ni
+771	\ nin
+220	\ ninn‚
+6128	\ nj
+751	\ nja
+411	\ nja\ 
+5039	\ nj√
+1750	\ nj√®
+540	\ nj√®\ 
+726	\ nj√®k
+193	\ nj√®n
+3032	\ nj√©
+1252	\ nj√©\ 
+1030	\ nj√©k
+298	\ nj√©r
+198	\ nj√©t
+830	\ no
+461	\ non\ 
+4250	\ ny
+4197	\ nyan
+1730	\ nyan\ 
+430	\ nyan-
+1002	\ nyang
+523	\ nyank
+213	\ nyanr
+8860	\ n√
+5924	\ n√®\ 
+391	\ n√®\ k
+2571	\ n√®\ n
+1384	\ n√®\ √
+191	\ n√®\ …
+695	\ n√®:\ 
+199	\ n√©
+256	\ n‚Äô
+394	\ oo
+204	\ ooi\ 
+338	\ pa
+193	\ po
+5983	\ ra
+2886	\ ra\ 
+345	\ ra\ de
+220	\ ra\ k
+595	\ ra\ n
+341	\ ra\ ny
+552	\ ra\ s
+243	\ ra\ se
+308	\ ra\ si
+753	\ rai\ 
+183	\ rai\ n
+1024	\ ran
+499	\ rang\ 
+269	\ rann‚
+819	\ ra‚Äô
+1351	\ re
+260	\ rebe\ 
+1009	\ ree
+601	\ ree\ 
+308	\ reei\ 
+841	\ ri
+376	\ ri\ 
+184	\ ri‚
+184	\ ri‚Äô
+257	\ sa
+180	\ sang
+9303	\ se
+6529	\ se\ 
+187	\ se\ Nu
+842	\ se\ d
+251	\ se\ de
+176	\ se\ do
+320	\ se\ d√
+404	\ se\ go
+797	\ se\ k
+258	\ se\ ku
+2053	\ se\ n
+384	\ se\ nd
+263	\ se\ ng
+301	\ se\ ni
+535	\ se\ nj
+188	\ se\ no
+201	\ se\ ny
+290	\ se\ r
+197	\ se\ si
+225	\ se\ t√
+1863	\ sei\ 
+222	\ sei\ k
+397	\ sei\ n
+216	\ sei\ t
+540	\ se‚Äô
+2225	\ si
+1308	\ si\ 
+606	\ si‚Äô
+638	\ s√
+309	\ s√°r\ 
+197	\ s√™
+191	\ s…î
+2584	\ ta
+353	\ ta.
+388	\ taa\ 
+178	\ taa\ k
+234	\ takul
+771	\ tam\ 
+283	\ tam\ t
+264	\ tami\ 
+4109	\ te
+1473	\ tede\ 
+985	\ tee
+606	\ tee\ 
+181	\ tee\ d
+246	\ teei\ 
+1178	\ tel\ 
+335	\ teli\ 
+1896	\ ti
+270	\ tite\ 
+1273	\ titek
+408	\ to
+233	\ tooi\ 
+1134	\ tu
+185	\ tur
+362	\ tutu\ 
+6069	\ t√
+3310	\ t√†\ 
+223	\ t√†\ N
+308	\ t√†\ d
+687	\ t√†\ k
+502	\ t√†\ l
+480	\ t√†\ n
+306	\ t√†\ s
+314	\ t√†ge
+312	\ t√†‚Ä
+290	\ t√°r
+925	\ t√≤\ 
+256	\ t√≤\ s
+3418	\ t…î
+253	\ t…î\ 
+655	\ t…î.\ 
+280	\ t…îgm
+341	\ t…îl
+544	\ ul
+530	\ ule
+266	\ ule\ 
+299	\ um
+1664	\ un
+944	\ unde
+498	\ unde\ 
+358	\ undei
+448	\ unn\ 
+449	\ uwe
+263	\ uwe\ 
+1133	\ wa
+1031	\ wa?
+375	\ wa?\ 
+175	\ wei\ 
+205	\ yo
+615	\ ¬´
+2297	\ √†\ 
+238	\ √†\ a
+210	\ √†\ n
+285	\ √†\ r
+442	\ √†\ t
+202	\ √†\ te
+264	\ √†\ u
+2571	\ √°
+2493	\ √°\ 
+208	\ √°\ do
+210	\ √°\ m‚
+297	\ √°\ n
+224	\ √°\ √®
+3871	\ √®\ 
+181	\ √®\ b√
+243	\ √®\ d
+497	\ √®\ k
+230	\ √®\ ke
+188	\ √®\ ku
+824	\ √®\ n
+265	\ √®\ nj
+453	\ √®\ t
+425	\ √©k√©
+7484	\ …ì
+246	\ …ìaa\ 
+2539	\ …ìaa,
+940	\ …ìai
+344	\ …ìai\ 
+492	\ …ìai.
+433	\ …ìar
+260	\ …ìar\ 
+1325	\ …ìee
+360	\ …ìee\ 
+474	\ …ìee-
+392	\ …ìeek
+213	\ …ìer
+346	\ …ìita
+407	\ …ì√°\ 
+2194	\ …î
+640	\ …îje\ 
+815	\ …îr
+444	\ …îr\ 
+236	\ …îs
+639	\ …ó
+345	\ …óari
+238	,\ N
+189	,\ Nu
+189	,\ Nube
+416	,\ a
+871	,\ d
+224	,\ doo
+246	,\ d√
+196	,\ d√©\ 
+303	,\ d‚
+303	,\ d‚Äô
+274	,\ e
+225	,\ ei
+542	,\ i
+428	,\ i\ 
+308	,\ j
+894	,\ k
+246	,\ ke
+411	,\ k√
+326	,\ k√©\ 
+229	,\ l
+934	,\ m
+411	,\ ma
+198	,\ maje
+185	,\ man\ 
+492	,\ m‚
+492	,\ m‚Äô
+1482	,\ n
+232	,\ nd
+199	,\ nj√©
+502	,\ n√®\ 
+546	,\ s
+527	,\ se
+195	,\ sei\ 
+547	,\ t
+201	,\ tede
+237	,\ u
+1308	,\ √
+212	,\ √†
+1057	,\ √®
+250	,\ …
+511	-Krist
+577	-b√
+562	-b√≤
+366	-b√≤\ k
+228	-d√
+219	-d√®
+184	-d√®-t
+340	-ga
+222	-gar
+543	-gi
+414	-gir
+227	-girng
+1205	-in
+1013	-in\ 
+175	-ka
+178	-k√
+274	-me
+267	-mes
+747	-nd
+436	-ndu
+219	-t√
+195	-t√†
+824	-…ì
+739	-…ìe
+535	-…ìee\ 
+618	.\ D
+292	.\ Doo
+862	.\ E
+755	.\ E\ 
+277	.\ G
+208	.\ J
+610	.\ K
+182	.\ Ke\ n
+194	.\ L
+181	.\ Loo\ 
+362	.\ M
+197	.\ Ma
+1407	.\ N
+687	.\ N√®\ 
+383	.\ T
+547	.¬ª
+543	:\ ¬´
+271	B…î
+176	Din
+859	Doo
+259	Doo\ ke
+362	Dooge\ 
+392	D√©
+378	D√©\ 
+351	Gir
+321	Gir‚Äô
+243	Jean
+487	Juip
+457	Juipge
+219	J√®
+180	J√®\ 
+2786	J√©
+186	J√©r
+177	J√©rus
+2594	J√©s
+1890	J√©su\ 
+265	J√©su-
+203	J√©su‚
+714	Ke\ 
+570	Ke\ n√®
+222	Ker…ît
+1039	Krist
+632	Krist\ 
+202	Kristg
+735	Kuwe
+682	Kuwe-…
+660	K√©
+608	K√©\ 
+270	K√™m
+869	Loo
+811	Loo\ ke
+432	Maje
+264	Maje\ k
+323	Man
+301	Man\ 
+377	M‚Äô
+389	Ndi
+365	Ndil
+200	Ndil-K
+276	Nga
+413	Ngo
+392	Ngon
+309	Ngonn\ 
+708	Nj√
+211	Nj√®
+497	Nj√©
+191	Nj√©\ k
+3356	Nube
+261	Nube\ a
+446	Nube\ k
+177	Nube\ l
+284	Nube\ n
+216	Nube\ t
+221	Nube\ u
+247	Nube\ √
+218	Nube\ …
+567	Nube‚Ä
+403	Nyan
+1326	N√®\ 
+290	N√®\ n
+378	Paul
+292	Pier
+292	Pierre
+393	Sei\ 
+195	Titeke
+477	T√†
+436	T√†\ 
+307	T√†\ ke
+188	a\ N
+650	a\ a
+179	a\ b
+1381	a\ d
+470	a\ de
+333	a\ d‚Äô
+201	a\ e
+352	a\ g
+417	a\ i
+234	a\ i\ 
+304	a\ j
+183	a\ j√
+1571	a\ k
+217	a\ ka
+381	a\ ke\ 
+390	a\ ku
+265	a\ k√
+600	a\ l
+403	a\ l√
+201	a\ l√©.
+894	a\ m
+233	a\ ma
+564	a\ m‚
+564	a\ m‚Äô
+1498	a\ n
+309	a\ nd
+456	a\ ny
+455	a\ nyan
+331	a\ r
+228	a\ ra
+887	a\ s
+323	a\ se\ 
+394	a\ si
+179	a\ si‚Ä
+2570	a\ t
+180	a\ t√
+1733	a\ t…
+1442	a\ t…î.
+271	a\ u
+212	a\ w
+861	a\ √
+345	a\ √†\ 
+431	a\ √®
+609	a\ …
+441	a\ …ì
+6406	a,\ 
+314	a,\ a
+642	a,\ d
+268	a,\ d‚Ä
+198	a,\ ei\ 
+252	a,\ i\ 
+217	a,\ j
+597	a,\ k
+247	a,\ k√©
+613	a,\ m
+344	a,\ m‚Ä
+592	a,\ n
+407	a,\ s
+251	a,\ se\ 
+288	a,\ t
+179	a,\ √†\ 
+874	a,\ √®\ 
+381	a.\ 
+375	a?\ 
+707	aa\ 
+192	aa\ k
+2552	aa,
+2523	aa,\ 
+461	aa,\ √®
+246	aak
+175	aak√
+175	aak√™m
+5292	ade
+4777	ade\ 
+265	ade\ a
+942	ade\ d
+303	ade\ do
+225	ade\ d√
+199	ade\ d‚
+223	ade\ i\ 
+191	ade\ j√
+389	ade\ k
+617	ade\ n
+185	ade\ nj
+180	ade\ r
+216	ade\ se
+308	ade\ t
+205	ade\ u
+345	ade‚Äô
+599	adi
+573	adi\ 
+598	age
+355	age\ 
+411	agtu
+264	agtub\ 
+1960	ai\ 
+210	ai\ k
+443	ai\ n
+577	ai.
+190	ai.\ 
+1224	ain
+907	ain\ 
+222	aiya
+2817	aje
+1357	aje\ 
+464	aje\ ka
+620	ajel
+620	ajel√©
+327	ajer
+310	aje‚Äô
+327	ak\ 
+192	ako
+184	akon
+304	aku
+300	akul
+178	ak√™
+175	ak√™m-
+500	al\ 
+1494	ala
+1452	alan
+1170	alang\ 
+207	alang.
+179	ale
+178	alem
+180	ali
+1020	am\ 
+177	am\ e
+177	am\ ede
+332	am\ t
+310	am\ t√†
+280	ami
+267	ami\ 
+5843	an\ 
+401	an\ d
+201	an\ d√®
+1763	an\ k
+1252	an\ ke\ 
+176	an\ ku
+523	an\ l
+298	an\ l√©
+411	an\ m‚Ä
+472	an\ n
+447	an\ se\ 
+310	an\ t
+1283	an-
+748	an-i
+688	an-in\ 
+214	an-m
+192	an-mes
+186	an-n
+180	an.
+321	ana
+186	anan\ k
+6290	ang
+3414	ang\ 
+202	ang\ a
+250	ang\ d
+497	ang\ ke
+483	ang\ n√
+235	ang\ t
+313	ang.
+183	anga
+1594	ange
+550	ange\ k
+214	ange\ l
+195	ange\ n
+239	angt
+235	angt√†
+209	anj
+201	anje
+792	ank
+474	anku
+194	ankum\ 
+289	anm
+2649	ann
+1693	ann\ 
+322	ann\ nj
+207	ann√©\ 
+392	ann‚
+392	ann‚Äô
+1041	anr
+589	anra
+341	anra\ 
+431	anr√
+430	anr√°n
+888	an‚Ä
+707	an‚Äôt
+1261	ar\ 
+213	ar\ d
+225	ar\ k
+324	ar-
+214	ar-gar
+387	ara
+236	aran
+190	aranku
+980	ari
+237	ari\ 
+411	arin
+411	arin√®
+176	aru
+2313	ar√
+371	ar√®
+1942	ar√©
+495	ar√©\ b
+403	ar√©\ k
+212	ar‚Äôn
+297	as\ 
+711	ase
+319	ase\ 
+219	asek
+219	asekum
+194	asi
+251	ata
+182	ata\ 
+465	ate
+292	ate\ 
+431	aul
+378	aul\ 
+1536	aw\ 
+274	aw\ k
+287	aw\ n
+238	aw\ se\ 
+547	awi
+536	awi\ 
+234	a…ì
+232	a…ìa
+195	a…ìai\ 
+1264	a‚Äô
+188	a‚Äôm\ 
+805	a‚Äôn\ 
+318	bai
+288	bain
+370	bak
+243	bak\ 
+197	bal
+184	ban
+370	bat
+3581	be\ 
+292	be\ a
+677	be\ k
+413	be\ ke\ 
+242	be\ l
+653	be\ n
+251	be\ nan
+182	be\ nga
+272	be\ t
+230	be\ u
+258	be\ √
+176	be\ √†\ 
+245	be\ …
+208	be-
+186	be-d
+186	be-d√®
+240	be.
+229	ben
+217	beng
+700	ber
+229	ber\ 
+336	bere
+700	be‚Ä
+626	be‚Äôt
+267	bi\ 
+274	bra
+335	bu\ 
+400	bul
+390	bule
+205	bulege
+1933	b√®
+1621	b√®\ 
+267	b√®\ g√
+202	b√®\ …ì
+218	b√®.
+884	b√≤
+554	b√≤\ 
+346	b√≤\ ke
+527	b…î
+207	b…îk
+563	da\ 
+206	dai
+175	dai\ 
+2799	dan
+264	dan\ 
+207	dan\ l√
+492	dang
+1271	dann
+187	dann\ d
+377	dann\ n
+736	danr
+430	danr√°
+14141	de\ 
+545	de\ a
+1964	de\ d
+447	de\ de\ 
+402	de\ doo
+593	de\ d√
+363	de\ d√®
+226	de\ d√©
+252	de\ d‚Ä
+412	de\ e
+303	de\ ede
+259	de\ g
+376	de\ i
+432	de\ j
+233	de\ j√®
+1682	de\ k
+397	de\ ka
+220	de\ kad
+324	de\ ke\ 
+286	de\ ku
+213	de\ k√™
+800	de\ l
+323	de\ le\ 
+358	de\ loo
+503	de\ m
+195	de\ ma
+211	de\ m‚Ä
+3537	de\ n
+210	de\ nan
+294	de\ nd
+242	de\ nga
+303	de\ nj√
+242	de\ nya
+1972	de\ n√®
+330	de\ r
+533	de\ sei
+804	de\ t
+292	de\ t√†
+264	de\ u
+185	de\ √®\ 
+281	de\ …
+274	de.
+465	dei
+459	dei\ 
+673	dej
+458	deje
+207	deji
+295	dek
+228	des
+1516	de‚Äô
+187	de‚Äôm
+585	de‚Äôn
+744	de‚Äôt
+2377	di\ 
+316	di\ d
+378	di\ k
+812	di\ n
+543	di\ n√®
+515	dig
+429	dige
+179	dige\ l
+604	dii
+545	dii\ 
+614	dil
+228	dil\ 
+202	dil-
+829	din
+395	ding
+362	dingem
+395	diny
+297	dinye\ 
+4298	doo
+1767	doo\ 
+420	doo\ ka
+509	doo\ ke
+2182	doog
+1907	dooge\ 
+205	dooge‚
+432	du\ 
+288	dub
+366	dum
+322	dum\ 
+327	du‚Ä
+234	du‚Äôn
+282	d√†
+244	d√†t
+279	d√°
+6209	d√®
+4651	d√®\ 
+284	d√®\ de
+181	d√®\ do
+176	d√®\ ku
+674	d√®\ na
+374	d√®\ nj
+364	d√®\ ny
+181	d√®\ ra
+195	d√®\ si
+239	d√®\ t√
+181	d√®\ …ì
+193	d√®-
+184	d√®-t√
+346	d√®n
+342	d√®nn‚
+764	d√®‚
+764	d√®‚Äô
+1366	d√©
+1174	d√©\ 
+179	d√©\ nd
+216	d√™
+324	d√≥
+254	d√≥\ 
+2731	d…î
+1716	d…î\ 
+917	d…î\ ke
+421	d…îg
+181	d…în
+2095	d‚Äô
+293	d‚Äôa\ 
+301	d‚Äôad
+245	d‚Äôed
+204	e\ A
+203	e\ B
+1233	e\ J
+651	e\ J√©s
+505	e\ K
+232	e\ Kris
+255	e\ Kuwe
+427	e\ M
+313	e\ Ma
+210	e\ Maje
+1930	e\ N
+1575	e\ Nube
+352	e\ P
+235	e\ S
+2395	e\ a
+238	e\ a\ t…
+339	e\ a,\ 
+396	e\ ade\ 
+233	e\ an-i
+381	e\ aw
+210	e\ aw\ 
+1539	e\ b
+258	e\ ba
+1027	e\ b√
+650	e\ b√®\ 
+8524	e\ d
+846	e\ dan
+347	e\ dann
+421	e\ danr
+1506	e\ de\ 
+287	e\ de\ e
+231	e\ de\ n
+385	e\ din
+183	e\ ding
+192	e\ diny
+1370	e\ doo
+510	e\ doo\ 
+798	e\ doog
+1732	e\ d√®\ 
+307	e\ d√®‚
+642	e\ d√©\ 
+701	e\ d‚Äô
+1039	e\ e
+537	e\ ede\ 
+366	e\ ei
+1694	e\ g
+250	e\ ga
+308	e\ ge
+183	e\ ger
+639	e\ go
+1139	e\ i
+557	e\ i\ 
+433	e\ in
+1670	e\ j
+253	e\ ji
+965	e\ j√
+320	e\ j√®\ 
+331	e\ j√©i
+303	e\ j‚Äô
+12384	e\ k
+2824	e\ ka
+1605	e\ kade
+478	e\ kar√
+5186	e\ ke
+654	e\ ke\ d
+361	e\ ke\ k
+367	e\ ke\ m
+884	e\ ke\ n
+378	e\ ke\ r
+339	e\ ke\ t
+342	e\ kemÃ
+283	e\ ki
+703	e\ ko
+187	e\ koo‚
+1569	e\ ku
+507	e\ kum
+283	e\ kum\ 
+563	e\ kuwe
+1502	e\ k√
+426	e\ k√©t
+854	e\ k√™m
+269	e\ k…î
+4092	e\ l
+1853	e\ le\ 
+342	e\ le\ N
+256	e\ le\ d
+353	e\ le\ k
+566	e\ le‚Ä
+603	e\ loo\ 
+236	e\ loon
+513	e\ l√©
+276	e\ l√©\ 
+3594	e\ m
+1966	e\ ma
+616	e\ maje
+741	e\ mala
+310	e\ man
+188	e\ mann
+591	e\ mb
+185	e\ mber
+790	e\ m‚
+790	e\ m‚Äô
+14293	e\ n
+1103	e\ nan
+219	e\ nan\ 
+653	e\ nang
+2375	e\ nd
+248	e\ nda
+675	e\ ndi
+213	e\ ndi\ 
+243	e\ ndii
+260	e\ ndu
+199	e\ nd√
+838	e\ nd…î
+1428	e\ nga
+441	e\ nga\ 
+257	e\ nga,
+185	e\ ngai
+196	e\ ngan
+247	e\ ngon
+321	e\ ni
+300	e\ ninn
+180	e\ nja
+2225	e\ nj√
+904	e\ nj√®
+1295	e\ nj√©
+299	e\ no
+1205	e\ nyan
+4036	e\ n√®
+2168	e\ n√®\ 
+1822	e\ n√®:
+410	e\ o
+268	e\ p
+2968	e\ r
+2225	e\ ra
+736	e\ ra\ 
+213	e\ rai\ 
+554	e\ rang
+307	e\ ra‚Ä
+202	e\ ree
+372	e\ ri
+3424	e\ s
+2400	e\ se
+1424	e\ se\ 
+220	e\ se\ d
+435	e\ se\ n
+842	e\ sei\ 
+526	e\ si\ 
+4341	e\ t
+510	e\ ta
+254	e\ tam
+745	e\ te
+207	e\ tede
+216	e\ tel\ 
+214	e\ tite
+250	e\ tu
+1048	e\ t√†\ 
+428	e\ t√≤\ 
+462	e\ t…î
+182	e\ t…îg
+1209	e\ u
+187	e\ ule
+530	e\ un
+284	e\ unde
+194	e\ unn
+295	e\ w
+1926	e\ √
+698	e\ √†\ 
+330	e\ √°\ 
+821	e\ √®\ 
+191	e\ √®\ n
+2136	e\ …
+1181	e\ …ì
+640	e\ …ìa
+322	e\ …ìaa
+225	e\ …ìee
+831	e\ …î
+374	e\ …îje
+297	e\ …îr
+1005	e,\ 
+201	e,\ n
+479	e-b
+475	e-b√
+373	e-b√≤\ 
+300	e-d
+200	e-d√
+184	e-d√®-
+427	e-g
+415	e-gi
+227	e-girn
+431	e-n
+402	e-nd
+231	e-ndu\ 
+721	e-…ì
+703	e-…ìee
+816	e.\ 
+175	e.\ N
+243	ean
+208	ean\ 
+843	ebe
+672	ebe\ 
+241	ebe\ na
+4797	ede
+4525	ede\ 
+285	ede\ de
+213	ede\ ka
+270	ede\ le
+1918	ede\ n√
+308	ede\ se
+253	ede‚
+253	ede‚Äô
+692	edi
+680	edi\ 
+518	edi\ n√
+2757	ee\ 
+350	ee\ d
+449	ee\ k
+261	ee\ ke\ 
+271	ee\ le\ 
+277	ee\ n
+176	ee\ t
+501	ee-
+475	ee-b
+475	ee-b√≤
+595	eei
+564	eei\ 
+395	eeko
+360	eekon\ 
+289	ee‚Äô
+1594	ege
+1354	ege\ 
+320	ege\ ke
+182	ege\ le
+6725	ei\ 
+357	ei\ a
+520	ei\ d
+178	ei\ d√®
+316	ei\ g
+1141	ei\ k
+416	ei\ ke
+225	ei\ ke\ 
+228	ei\ ku
+197	ei\ k√™
+597	ei\ l
+230	ei\ le\ 
+187	ei\ loo
+287	ei\ m
+1323	ei\ n
+294	ei\ nd
+266	ei\ nga
+243	ei\ nj√
+204	ei\ ra
+186	ei\ se\ 
+514	ei\ t
+215	ei\ …ì
+498	eje
+350	eje\ 
+317	eji
+193	eji\ 
+1688	eke
+1482	eke\ 
+606	eke\ b√
+398	eko
+394	ekon
+328	ekon\ k
+219	ekum
+1806	el\ 
+204	el\ d
+182	el\ k
+215	el\ r
+426	eli
+404	eli\ 
+621	el√©
+511	em\ 
+197	em\ k
+1298	emÃÇ
+589	eng
+200	eng\ 
+248	enn
+1432	er\ 
+216	er\ k
+182	er\ l
+176	er\ n
+186	er\ t
+379	ere
+310	ere\ 
+599	eri
+562	eri\ 
+294	err
+292	erre
+344	er…î
+335	er…îte
+213	er‚Äô
+472	ese
+207	ese\ 
+7538	e‚Äô
+862	e‚Äôm\ 
+3423	e‚Äôn\ 
+268	e‚Äôn.
+2234	e‚Äôt\ 
+398	e‚Äôt.
+294	g\ a
+353	g\ d
+185	g\ d√
+860	g\ k
+581	g\ ke
+456	g\ l
+291	g\ le
+823	g\ n
+501	g\ n√
+386	g\ n√®\ 
+304	g\ t
+226	g\ …
+212	g.\ 
+4089	ga\ 
+291	ga\ a
+207	ga\ d
+203	ga\ g
+295	ga\ k
+372	ga\ l
+333	ga\ l√©
+251	ga\ n
+527	ga\ t
+524	ga\ √
+332	ga\ √®\ 
+309	ga\ …
+175	ga\ …ìa
+1809	ga,
+1782	ga,\ 
+299	ga,\ √®
+434	ga.
+941	gai
+182	gai\ 
+540	gain
+339	gaje
+267	gajer\ 
+203	gak
+184	gakon
+1161	gan
+693	gang
+232	gangt√
+411	gann
+1056	gar
+461	gar\ 
+242	gara
+212	garank
+10218	ge\ 
+455	ge\ a
+375	ge\ d
+183	ge\ g
+2944	ge\ ke\ 
+735	ge\ le\ 
+320	ge\ le‚
+243	ge\ l√©
+688	ge\ mal
+1218	ge\ n
+225	ge\ nga
+541	ge\ n√®
+429	ge\ se\ 
+419	ge\ t
+232	ge\ √
+232	ge\ …
+224	ge,
+218	ge,\ 
+302	ge.
+192	geg
+402	gei
+304	gei\ 
+480	gem
+356	gem\ 
+1090	ger
+529	ger\ 
+422	geri
+190	ge‚Äôn
+804	ge‚Äôt
+351	gi\ 
+218	gid
+1801	gir
+934	gir\ 
+238	girn
+228	girnge
+312	gmon
+255	gmong\ 
+793	go\ 
+182	go\ n
+1192	gon
+744	gonn\ 
+185	gonn\ n
+282	got
+276	goto
+411	gtub
+235	gt√†
+250	gu\ 
+383	gug
+372	gugu
+455	gute
+339	gute-n
+1073	g√©
+1041	g√©a
+388	g√©a,\ 
+340	g…î
+196	g…îr
+261	g‚Äô
+374	i\ J
+207	i\ J√©s
+239	i\ N
+180	i\ Nube
+966	i\ a
+236	i\ a\ 
+183	i\ ad
+257	i\ b
+2175	i\ d
+225	i\ dann
+508	i\ de
+282	i\ de\ 
+224	i\ doog
+632	i\ d√®\ 
+322	i\ e
+276	i\ ed
+188	i\ edi\ 
+926	i\ g
+206	i\ geri
+313	i\ i
+313	i\ j
+3149	i\ k
+322	i\ ka
+684	i\ ke\ 
+198	i\ kemÃ
+780	i\ ku
+372	i\ kum
+203	i\ kuwe
+579	i\ k√™m
+1140	i\ l
+374	i\ le\ 
+300	i\ loo\ 
+217	i\ l√©
+825	i\ m
+462	i\ ma
+256	i\ mb
+4758	i\ n
+591	i\ nan
+290	i\ nan\ 
+894	i\ nd
+342	i\ ndi
+763	i\ nga
+282	i\ nga\ 
+208	i\ nga,
+282	i\ nin\ 
+348	i\ nj√©
+459	i\ nyan
+695	i\ n√
+194	i\ n√®\ 
+478	i\ n√®:
+1071	i\ r
+775	i\ ra
+376	i\ ra\ 
+247	i\ rai\ 
+1533	i\ s
+1277	i\ se
+744	i\ se\ 
+223	i\ se\ n
+187	i\ sei\ 
+175	i\ se‚Ä
+2315	i\ t
+258	i\ ta
+364	i\ te
+293	i\ tite
+521	i\ t√†\ 
+245	i\ u
+232	i\ w
+508	i\ √
+209	i\ √°
+825	i\ …
+636	i\ …ì
+259	i\ …ìaa
+238	i,\ 
+423	i.\ 
+402	ibe
+176	ibe\ 
+186	ibe-
+186	ibe-d√
+276	ie\ 
+310	ier
+292	ierr
+263	ierre\ 
+912	ige
+756	ige\ 
+176	ige\ k
+194	ige\ le
+764	ii\ 
+184	ii\ k
+215	iku
+213	ikum
+266	il\ 
+202	il-
+200	il-K
+240	ila
+1420	ile
+840	ile\ 
+190	ile\ mb
+302	ilei
+260	ile‚Äô
+3555	in\ 
+229	in\ a
+459	in\ d
+176	in\ d√®
+375	in\ k
+209	in\ l
+205	in\ m
+515	in\ n
+194	in\ ng
+197	in\ r
+266	in\ se\ 
+258	in\ t
+384	in-
+278	in-i
+259	in-in\ 
+281	in.
+1416	ing
+1295	inge
+361	inge\ 
+243	ingei\ 
+355	ingem\ 
+537	inn
+368	inn‚Äô
+622	inye\ 
+412	in√®
+462	ipge
+988	ir\ 
+210	ir\ k
+186	iri
+181	irk
+238	irn
+228	irng
+209	irnge\ 
+416	ir‚Ä
+403	ir‚Äôn
+210	ise
+178	ise\ 
+1050	ist
+632	ist\ 
+202	istg
+177	istge\ 
+348	ita
+288	ita\ 
+1832	ite
+323	ite\ 
+1477	itek
+1477	iteke\ 
+224	iya
+188	iyo
+405	i‚Äôn\ 
+970	i‚Äôt\ 
+435	ja\ 
+3670	je\ 
+944	je\ d
+633	je\ d√®
+841	je\ k
+475	je\ kad
+192	je\ ke\ 
+543	je\ n
+219	je\ nya
+180	je\ t√†
+620	jel√
+446	jel√©\ 
+337	jer
+276	jer\ 
+668	je‚Äôn
+933	ji\ 
+199	ji\ d
+212	ji\ n
+191	ji\ s
+396	joo
+302	joo\ 
+343	ju\ 
+3107	j√®
+1420	j√®\ 
+179	j√®\ ra
+262	j√®i
+826	j√®k
+228	j√®n
+4837	j√©
+1806	j√©\ 
+1015	j√©\ ke
+772	j√©i
+1198	j√©k
+377	j√©kuw
+352	j√©r
+236	j√©t
+220	j√©taa
+196	j√™
+927	j‚Äô
+2385	kad
+2333	kade
+408	kade\ d
+257	kade\ i
+266	kade\ n
+295	kage
+311	kai
+216	kaiy
+520	kan
+203	kan\ 
+2528	kar
+2243	kar√
+187	kar√®\ 
+1686	kar√©\ 
+384	kaw
+205	kaw\ 
+19420	ke\ 
+488	ke\ J
+362	ke\ J√©
+324	ke\ M
+210	ke\ Maj
+480	ke\ N
+363	ke\ Nub
+537	ke\ a
+1025	ke\ b
+615	ke\ b√®
+288	ke\ b√≤
+2188	ke\ d
+361	ke\ dan
+177	ke\ din
+293	ke\ doo
+273	ke\ d√®
+398	ke\ d√©
+353	ke\ d‚Ä
+291	ke\ e
+254	ke\ ei\ 
+317	ke\ g
+490	ke\ i
+395	ke\ j
+1680	ke\ k
+205	ke\ kar
+193	ke\ koo
+357	ke\ k√©
+302	ke\ k√™
+264	ke\ l
+1355	ke\ m
+546	ke\ maj
+508	ke\ m‚Ä
+3655	ke\ n
+294	ke\ nan
+359	ke\ ndi
+485	ke\ nd…
+930	ke\ nj√
+182	ke\ nya
+656	ke\ n√®
+1315	ke\ r
+292	ke\ ra\ 
+627	ke\ ran
+439	ke\ s
+183	ke\ sei
+1236	ke\ t
+292	ke\ t√†
+346	ke\ t√≤
+408	ke\ u
+701	ke\ √
+206	ke\ √†\ 
+495	ke\ √®\ 
+605	ke\ …
+316	ke\ …îj
+423	keb
+265	kebe\ n
+181	ked
+849	kei
+633	kei\ 
+190	kei\ ke
+200	kei\ le
+1190	kemÃ
+689	kemÃÇ\ 
+330	kil
+305	kile
+369	kin
+219	kinge
+372	koj
+364	koje
+194	koje\ d
+1263	kon
+637	kon\ 
+334	kon\ ke
+255	kon‚Äô
+277	koo
+196	koo‚
+196	koo‚Äô
+318	kos
+251	kosd
+251	kosdoo
+311	kub
+239	kubu
+381	kuj
+192	kuje\ n
+1192	kul
+305	kul\ 
+835	kule
+177	kulege
+2522	kum
+1502	kum\ 
+303	kum\ k
+324	kumgaj
+256	kum‚
+256	kum‚Äô
+1011	kun
+575	kund
+213	kunde\ 
+272	kundek
+267	kunn
+235	kus
+193	kuse
+2316	kuwe
+210	kuwe\ √
+399	kuwe,\ 
+406	kuwe-g
+625	k√†
+234	k√†\ 
+316	k√†d
+220	k√†de\ 
+211	k√°
+1853	k√©
+842	k√©\ 
+190	k√©\ n
+1010	k√©t
+1010	k√©t√©
+3174	k√™
+3109	k√™m
+325	k√™m\ d
+343	k√™m\ k
+206	k√™m\ n
+184	k√™m\ s
+668	k√™m\ …
+175	k√™m-K
+250	k√™m‚Ä
+1372	k…î
+330	k…îk
+183	k…îke\ 
+462	k…îr
+234	l\ a
+518	l\ d
+211	l\ de
+197	l\ i
+624	l\ k
+196	l\ ke\ 
+396	l\ n
+300	l\ r
+212	l\ s
+252	l\ t
+200	l-K
+1519	lan
+1460	lang
+422	lang\ k
+7344	le\ 
+240	le\ J
+220	le\ K
+910	le\ N
+815	le\ Nub
+1057	le\ d
+479	le\ de\ 
+276	le\ doo
+380	le\ j
+315	le\ j√©
+1672	le\ k
+752	le\ kad
+180	le\ ke
+289	le\ m
+196	le\ mbe
+643	le\ n
+243	le\ nj√
+259	le\ ra
+485	le\ s
+310	le\ si\ 
+304	le\ t
+390	lege
+788	lei
+733	lei\ 
+197	lem
+1889	le‚Ä
+520	le‚Äôm
+1307	le‚Äôn
+214	lge
+189	lge\ 
+615	li\ 
+2511	loo
+1908	loo\ 
+536	loo\ ke
+397	loo\ te
+334	loon
+329	loon‚Ä
+4288	l√©
+2152	l√©\ 
+194	l√©\ a\ 
+184	l√©\ k
+182	l√©\ wa
+381	l√©\ …ì
+302	l√©,
+190	l√©,\ n
+1316	l√©.
+241	l√©.\ N
+398	l‚Äô
+200	l‚Äôn\ 
+227	m\ a
+1038	m\ d
+342	m\ de\ 
+183	m\ d√®\ 
+234	m\ e
+226	m\ ed
+221	m\ ede\ 
+223	m\ j
+1497	m\ k
+256	m\ ka
+776	m\ ke
+391	m\ ke\ 
+279	m\ kei\ 
+176	m\ k√
+346	m\ l
+353	m\ m
+250	m\ ma
+1110	m\ n
+187	m\ na
+320	m\ nd
+200	m\ nd…î
+215	m\ nga
+190	m\ r
+584	m\ s
+186	m\ se\ 
+236	m\ si\ 
+805	m\ t
+407	m\ t√†\ 
+885	m\ …
+833	m\ …ì
+650	m\ …ìee
+175	m-Kr
+175	m-Kris
+421	mad
+396	made
+317	mag
+262	magt
+262	magtub
+1506	maj
+1470	maje
+310	maje\ k
+613	majel√
+1355	mal
+1347	mala
+1347	malang
+1334	man
+731	man\ 
+232	man\ m‚
+464	mann
+256	mar
+235	mari
+685	mba
+349	mbak
+489	mbe
+269	mber
+399	mbi
+366	mes
+363	mese
+324	mgaj
+324	mgajer
+223	mge
+686	mi\ 
+283	mnd
+193	mnda
+508	mon
+381	mong
+225	mute\ 
+1298	mÃÇ
+727	mÃÇ\ 
+4146	m‚Äô
+364	m‚Äôa\ 
+222	m‚Äôad
+324	m‚Äôed
+225	m‚Äôee
+764	m‚Äôn
+459	m‚Äôn\ 
+240	m‚Äônd
+737	m‚Äôt
+392	m‚Äôt\ 
+178	n\ J
+193	n\ N
+1030	n\ a
+187	n\ a\ t…
+194	n\ a,\ 
+370	n\ ad
+310	n\ ade\ 
+452	n\ b
+192	n\ ba
+2486	n\ d
+299	n\ dan
+176	n\ dann
+441	n\ de
+210	n\ de\ 
+305	n\ doo
+748	n\ d√®\ 
+188	n\ d√®‚
+362	n\ e
+348	n\ ed
+241	n\ ede\ 
+748	n\ g
+276	n\ gi
+213	n\ gir\ 
+312	n\ j
+4768	n\ k
+519	n\ ka
+245	n\ kar√
+2887	n\ ke\ 
+258	n\ ke\ d
+281	n\ ke\ k
+240	n\ ke\ m
+723	n\ ke\ n
+538	n\ ku
+202	n\ kum
+262	n\ k√™m
+1540	n\ l
+490	n\ le\ 
+198	n\ loo\ 
+651	n\ l√©
+315	n\ l√©\ 
+272	n\ l√©.
+1274	n\ m
+495	n\ ma
+224	n\ mb
+468	n\ m‚
+468	n\ m‚Äô
+3526	n\ n
+275	n\ nan
+598	n\ nd
+643	n\ nga
+291	n\ nga\ 
+705	n\ nj
+180	n\ nj√®
+394	n\ nj√©
+372	n\ nyan
+480	n\ n√®\ 
+701	n\ r
+526	n\ ra
+307	n\ ra\ 
+1661	n\ s
+1083	n\ se\ 
+206	n\ se\ d
+207	n\ se\ k
+253	n\ se\ n
+244	n\ si
+1463	n\ t
+231	n\ te
+372	n\ t√†\ 
+202	n\ u
+223	n\ w
+661	n\ √
+232	n\ √°\ 
+205	n\ √®
+842	n\ …
+715	n\ …ì
+297	n\ …ìaa
+231	n!\ 
+252	n,\ 
+1204	n-in
+232	n-in\ n
+234	n-m
+196	n-me
+192	n-mese
+307	n-n
+598	n.\ 
+281	nai
+274	nain
+307	naj
+282	naje
+3817	nan
+1384	nan\ 
+264	nan\ ke
+284	nan\ se
+1502	nang
+556	nang\ n
+420	nange\ 
+655	nan‚
+655	nan‚Äô
+238	nar
+251	nat
+239	nata
+1446	nda
+508	nda\ 
+177	ndai
+598	ndan
+207	ndan\ l
+297	ndang\ 
+2146	nde
+941	nde\ 
+274	nde\ lo
+463	ndei
+217	ndei\ k
+295	ndek
+2537	ndi
+987	ndi\ 
+507	ndig
+378	ndige\ 
+588	ndii
+198	ndil
+533	ndo
+213	ndoo\ 
+1414	ndu
+390	ndu\ 
+184	ndub
+322	ndu‚
+322	ndu‚Äô
+1085	nd√
+264	nd√†
+278	nd√°
+216	nd√™
+254	nd√≥\ 
+1849	nd…î
+895	nd…î\ k
+293	nel
+204	nel\ 
+4355	ng\ 
+287	ng\ a
+333	ng\ d
+845	ng\ k
+541	ng\ ke\ 
+400	ng\ l
+222	ng\ le\ 
+799	ng\ n
+493	ng\ n√®
+295	ng\ t
+213	ng\ …
+281	ng-
+434	ng.
+205	ng.\ 
+8375	nga
+4089	nga\ 
+337	nga\ l√
+332	nga\ √®
+224	nga\ …ì
+1809	nga,
+176	nga,\ d
+209	nga,\ k
+186	nga,\ m
+335	nga,\ √
+434	nga.
+652	ngai
+390	ngain\ 
+524	ngan
+216	ngann\ 
+539	ngar
+204	ngaran
+3897	nge
+2501	nge\ 
+693	nge\ ke
+259	nge\ le
+201	nge\ ma
+379	nge\ n
+197	nge\ n√
+363	ngei
+455	ngem
+181	ngem\ k
+301	nge‚Äô
+364	ngi
+866	ngo
+730	ngon
+435	ngonn\ 
+239	ngt
+235	ngt√
+246	ng…î
+237	ng‚Ä
+221	ni\ 
+772	nin
+332	nin\ 
+362	ninn
+220	ninn‚Ä
+833	nja
+419	nja\ 
+222	nje
+184	nje\ 
+225	nji
+242	nju
+198	nju\ 
+5071	nj√
+1750	nj√®
+211	nj√®\ k
+339	nj√®ku
+186	nj√®nd
+3040	nj√©
+893	nj√©\ k
+505	nj√©ku
+184	nj√©ta
+474	nku
+208	nkum
+192	nk√
+336	nm\ 
+3402	nn\ 
+441	nn\ d
+236	nn\ g
+190	nn\ gir
+404	nn\ k
+955	nn\ n
+197	nn\ ndu
+452	nn\ nj√
+203	nn\ s
+274	nnge\ 
+226	nni
+216	nni\ 
+220	nn√
+218	nn√©
+444	nn‚Äôn
+1045	nn‚Äôt
+205	noje\ 
+744	non
+488	non\ 
+589	nra
+341	nra\ 
+430	nr√°
+363	nr√°n\ 
+4303	nyan
+910	nyan\ k
+213	nyan-m
+958	nyange
+253	nyanku
+213	nyanra
+981	nye
+633	nye\ 
+8973	n√®
+6254	n√®\ 
+292	n√®\ ku
+2469	n√®\ ng
+1179	n√®\ √°
+190	n√®.
+2349	n√®:
+535	n√®:\ ¬
+446	n√©
+411	n√©\ 
+238	n…ìe
+819	n‚Äôn\ 
+2348	n‚Äôt\ 
+282	n‚Äôt.
+221	o\ a
+249	o\ d
+3184	o\ k
+601	o\ ka
+533	o\ kar√
+2269	o\ ke
+408	o\ ke\ d
+456	o\ ke\ n
+258	o\ l
+217	o\ m
+1103	o\ n
+191	o\ nd
+233	o\ ng
+192	o\ nyan
+328	o\ n√
+314	o\ n√®\ 
+190	o\ r
+946	o\ t
+459	o\ te
+239	o\ tee\ 
+175	o\ t√†\ 
+2646	oge
+2343	oge\ 
+952	oge\ ke
+321	oge\ ma
+219	oge‚
+219	oge‚Äô
+617	oi\ 
+175	oi\ t
+228	oin
+781	oje
+605	oje\ 
+235	ol√
+1512	on\ 
+462	on\ k
+366	on\ ke\ 
+206	on\ n
+627	ong
+433	ong\ 
+193	ong\ le
+352	onm
+1123	onn
+778	onn\ 
+238	on…ìee
+512	on‚Äôt
+5577	oo\ 
+176	oo\ a
+512	oo\ kar
+2119	oo\ ke\ 
+193	oo\ l
+747	oo\ n
+298	oo\ n√®
+672	oo\ t
+383	oo\ tee
+2581	ooge
+981	ooge\ k
+324	ooge\ m
+292	ooge\ n
+212	ooge‚Ä
+497	ooi
+465	ooi\ 
+377	oon
+370	oon‚
+370	oon‚Äô
+379	oo‚Äôt
+304	osdo
+232	osdoog
+396	oso
+188	oso\ 
+357	oto
+187	o‚Äôn\ 
+567	o‚Äôt\ 
+240	pa\ 
+462	pge
+417	pge\ 
+190	r\ a
+548	r\ d
+307	r\ g
+1055	r\ k
+439	r\ ke\ 
+562	r\ l
+281	r\ le\ 
+211	r\ m
+1021	r\ n
+271	r\ nyan
+252	r\ r
+200	r\ ra
+461	r\ s
+583	r\ t
+233	r\ …
+222	r-g
+214	r-ga
+3717	ra\ 
+600	ra\ d
+256	ra\ de\ 
+491	ra\ k
+229	ra\ ke\ 
+686	ra\ n
+384	ra\ nya
+620	ra\ s
+178	ra\ si\ 
+898	rai
+779	rai\ 
+1376	ran
+610	rang
+222	rank
+197	rankum
+281	rann
+270	rann‚Ä
+962	ra‚Ä
+740	ra‚Äôn
+841	re\ 
+351	rebe
+1087	ree
+659	ree\ 
+319	reei
+362	rge
+308	rge\ 
+1754	ri\ 
+254	ri\ n
+186	ribe-d
+186	rie
+569	rin
+411	rin√
+308	rin√®\ 
+1229	ris
+1048	rist
+202	ristge
+196	ri‚Ä
+229	rnge
+292	rre
+263	rre\ 
+176	ru\ 
+241	rus
+177	rusa
+176	rusale
+491	r√°
+434	r√°n
+449	r√®
+276	r√®\ 
+2107	r√©
+1776	r√©\ 
+372	r√©\ b√
+380	r√©\ ke
+810	r…î
+200	r…î\ 
+355	r…ît
+319	r…îte\ 
+968	r‚Äôn\ 
+203	sal
+176	sale
+215	san
+191	sang
+304	sdoo
+232	sdooge
+7795	se\ 
+176	se\ J
+227	se\ N
+187	se\ Nub
+926	se\ d
+245	se\ de\ 
+185	se\ doo
+335	se\ d√®
+488	se\ g
+362	se\ go\ 
+1057	se\ k
+211	se\ ke
+176	se\ kum
+221	se\ l
+190	se\ m
+2416	se\ n
+200	se\ nan
+247	se\ nd…
+206	se\ nga
+298	se\ nin
+521	se\ nj√
+186	se\ non
+251	se\ nya
+320	se\ r
+313	se\ s
+447	se\ t
+251	se\ t√†
+2078	sei
+1946	sei\ 
+222	sek
+219	seku
+219	sekum\ 
+772	se‚Ä
+463	se‚Äôn
+1537	si\ 
+219	si\ k
+286	si\ n
+175	sie
+606	si‚Ä
+606	si‚Äôt
+188	so\ 
+632	st\ 
+202	stge
+1974	su\ 
+278	su\ e
+245	su\ ede
+199	su\ n
+364	su\ t
+219	su\ tel
+265	su-K
+265	su-Kri
+212	su‚Ä
+204	su‚Äôt
+351	s√°
+349	s√°r
+396	s√™
+346	s…î
+845	t\ a
+285	t\ a\ 
+271	t\ a\ t…
+256	t\ a,
+284	t\ b
+189	t\ b…
+184	t\ b…îk
+422	t\ d
+433	t\ e
+421	t\ ed
+317	t\ ede\ 
+340	t\ g
+217	t\ gu
+217	t\ gugu
+927	t\ k
+395	t\ ke
+1467	t\ l
+908	t\ le
+177	t\ le‚Ä
+504	t\ l√
+233	t\ l√©\ 
+198	t\ l√©.
+282	t\ m
+2011	t\ n
+754	t\ ng
+382	t\ nga\ 
+240	t\ nga,
+862	t\ n√
+780	t\ n√®\ 
+419	t\ s
+356	t\ se
+714	t\ t
+227	t\ te
+175	t\ tede
+265	t\ √
+675	t\ …
+530	t\ …ì
+312	t\ …ìaa
+327	t,\ 
+729	t.\ 
+529	ta\ 
+449	ta.
+835	taa
+423	taa\ 
+246	taak
+175	taak√™
+239	tak
+235	taku
+209	takul\ 
+1217	tam
+860	tam\ 
+308	tam\ t√
+274	tami
+271	tch
+1821	te\ 
+516	te\ k
+285	te\ kuw
+269	te\ n
+418	te-
+371	te-n
+371	te-ndu
+1529	tede
+385	tede\ k
+282	tede\ l
+179	tede\ n
+1009	tee
+620	tee\ 
+259	teei
+1477	teke
+663	teke\ b
+1667	tel
+1276	tel\ 
+348	teli
+215	tge
+185	tge\ 
+219	ti\ 
+1562	tite
+1282	titeke
+220	to\ 
+258	too
+235	tooi
+176	toso
+446	tu\ 
+417	tub
+264	tub\ 
+362	tur
+204	tur\ 
+520	tut
+453	tutu
+5044	t√†
+3691	t√†\ 
+223	t√†\ Nu
+330	t√†\ d√
+537	t√†\ ke
+459	t√†\ le
+279	t√†\ n√
+266	t√†\ se
+624	t√†g
+442	t√†ge\ 
+361	t√†‚
+361	t√†‚Äô
+531	t√°
+371	t√°r
+1135	t√©
+874	t√©\ 
+270	t√™
+213	t√™t
+943	t√≤
+938	t√≤\ 
+239	t√≤\ se
+3728	t…î
+317	t…î\ 
+1888	t…î.
+181	t…î.\ N
+546	t…îg
+295	t…îgmo
+185	t…îj
+350	t…îl
+264	u\ a
+411	u\ d
+292	u\ e
+289	u\ ed
+235	u\ ede\ 
+544	u\ k
+284	u\ ke\ 
+235	u\ l
+579	u\ n
+186	u\ nga
+479	u\ t
+254	u\ te
+220	u\ tel\ 
+262	u\ …
+265	u-Kr
+265	u-Kris
+264	ub\ 
+3548	ube
+2567	ube\ 
+320	ube\ ke
+205	ube.
+578	ube‚
+578	ube‚Äô
+414	ubu
+325	ubu\ 
+509	uge
+407	uge\ 
+396	ugu
+250	ugu\ 
+492	uip
+462	uipg
+417	uipge\ 
+419	uje
+304	uje\ 
+193	uje\ ny
+215	uju
+799	ul\ 
+2058	ule
+1138	ule\ 
+224	ule\ d
+331	ulege\ 
+235	ulei
+253	ule‚Äô
+2098	um\ 
+467	um\ d
+439	um\ k
+261	um\ n
+216	um\ t
+326	umg
+324	umga
+324	umgaje
+268	umi
+248	umi\ 
+313	um‚Ä
+240	um‚Äôn
+1825	und
+1805	unde
+882	unde\ 
+231	unde\ k
+276	unde\ l
+426	undei\ 
+260	unj
+198	unju\ 
+1061	unn
+723	unn\ 
+543	ur\ 
+177	usa
+176	usal
+176	usalem
+382	use
+212	use\ 
+1022	ute
+433	ute\ 
+414	ute-
+371	ute-nd
+608	utu
+422	utu\ 
+3681	uwe
+1472	uwe\ 
+222	uwe\ d
+402	uwe,
+1128	uwe-
+406	uwe-gi
+688	uwe-…ì
+314	uwe.
+181	uwe‚Äô
+674	u‚Äô
+314	u‚Äôn\ 
+223	u‚Äôt\ 
+282	w\ k
+293	w\ n
+385	w\ s
+358	w\ se
+1031	wa?
+375	wa?\ 
+1473	we\ 
+223	we\ d
+212	we\ √
+402	we,
+399	we,\ 
+1128	we-
+406	we-g
+406	we-gir
+688	we-…
+687	we-…ìe
+314	we.
+543	wei
+405	wei\ 
+181	we‚Ä
+567	wi\ 
+181	ya\ 
+4705	yan
+1940	yan\ 
+812	yan\ ke
+461	yan-
+192	yan-me
+1154	yang
+927	yange\ 
+570	yank
+234	yanr
+730	ye\ 
+177	ye\ k
+211	yei
+194	yei\ 
+215	yo\ 
+1521	Äì\ 
+444	Äì\ K
+234	Äì\ K√©
+195	Äì\ N
+2417	Äôa
+805	Äôa\ 
+188	Äôa\ d‚
+375	Äôa\ m‚
+657	Äôad
+544	Äôade\ 
+399	Äôan
+373	Äôaw
+1084	Äôe
+633	Äôed
+559	Äôede\ 
+409	Äôee
+630	Äôi
+280	Äôil
+338	Äôin
+1946	Äôm
+1690	Äôm\ 
+187	Äôm\ ke
+9498	Äôn
+8418	Äôn\ 
+242	Äôn\ ad
+567	Äôn\ d√
+214	Äôn\ ed
+955	Äôn\ ke
+185	Äôn\ ku
+226	Äôn\ k√
+255	Äôn\ l√
+192	Äôn\ na
+209	Äôn\ nd
+343	Äôn\ ng
+228	Äôn\ n√
+398	Äôn\ se
+293	Äôn\ t√
+284	Äôn\ …ì
+524	Äôn.
+305	Äônd
+225	Äôo
+315	Äôr
+226	Äôra
+10429	Äôt
+8415	Äôt\ 
+250	Äôt\ a\ 
+232	Äôt\ a,
+189	Äôt\ b…
+388	Äôt\ ed
+217	Äôt\ gu
+258	Äôt\ ke
+892	Äôt\ le
+457	Äôt\ l√
+616	Äôt\ ng
+854	Äôt\ n√
+330	Äôt\ se
+196	Äôt\ te
+472	Äôt\ …ì
+186	Äôt,
+1274	Äôt.
+922	Äôu
+193	Äôul
+345	Äôun
+222	Äôunde
+406	Äô…
+371	Äô…î
+444	ì\ K
+245	ì\ K√
+231	ì\ K√©\ 
+195	ì\ N
+2789	ìaa
+246	ìaa\ 
+2540	ìaa,
+246	ìaa,\ d
+228	ìaa,\ k
+297	ìaa,\ m
+193	ìaa,\ n
+518	ìaa,\ √
+1179	ìai
+541	ìai\ 
+501	ìai.
+594	ìar
+406	ìar\ 
+2314	ìee
+1045	ìee\ 
+215	ìee\ ke
+219	ìee\ le
+476	ìee-
+450	ìee-b√
+392	ìeek
+388	ìeekon
+175	ìel
+226	ìer
+350	ìit
+347	ìita
+541	ì√°
+407	ì√°\ 
+207	ì√°\ …ì
+1235	î\ k
+960	î\ ke
+242	î\ n
+183	î\ t
+694	î.\ 
+185	î.\ N
+633	îge
+464	îge\ 
+312	îgmo
+312	îgmong
+1133	îje
+870	îje\ 
+495	îje\ d√
+229	îje‚
+229	îje‚Äô
+205	îk\ 
+326	îke
+191	îke\ 
+334	îl\ 
+228	în‚Ä
+228	în‚Äôt
+1243	îr\ 
+320	îr\ n
+256	îrg
+254	îri
+247	îri\ 
+234	îr‚Ä
+178	îr‚Äôn
+315	îse
+288	îse\ 
+525	îte
+469	îte\ 
+283	îte\ ku
+328	î‚Äô
+348	óari
+346	óarin√
+805	ôa\ 
+196	ôa\ d
+188	ôa\ d‚Ä
+381	ôa\ m
+375	ôa\ m‚Ä
+657	ôad
+601	ôade
+399	ôan
+241	ôan\ 
+373	ôaw
+297	ôaw\ 
+633	ôed
+597	ôede
+286	ôede\ n
+234	ôede\ s
+409	ôee
+387	ôee\ 
+280	ôile
+338	ôin
+1690	ôm\ 
+317	ôm\ k
+178	ôm\ m
+249	ôm\ n
+8418	ôn\ 
+529	ôn\ a
+226	ôn\ ade
+993	ôn\ d
+549	ôn\ d√®
+222	ôn\ e
+203	ôn\ ede
+237	ôn\ g
+1616	ôn\ k
+887	ôn\ ke\ 
+511	ôn\ l
+240	ôn\ l√©
+290	ôn\ m
+1283	ôn\ n
+319	ôn\ nga
+219	ôn\ n√®
+194	ôn\ r
+459	ôn\ s
+301	ôn\ se\ 
+646	ôn\ t
+227	ôn\ t√†
+320	ôn\ √
+351	ôn\ …
+194	ôn\ …ìa
+524	ôn.
+264	ôn.\ 
+305	ônd
+175	ôndi
+226	ôra
+183	ôra\ 
+8415	ôt\ 
+738	ôt\ a
+236	ôt\ a\ t
+223	ôt\ a,\ 
+272	ôt\ b
+189	ôt\ b…î
+321	ôt\ d
+397	ôt\ e
+312	ôt\ ede
+290	ôt\ g
+217	ôt\ gug
+709	ôt\ k
+201	ôt\ ke\ 
+1401	ôt\ l
+694	ôt\ le\ 
+446	ôt\ l√©
+261	ôt\ m
+1815	ôt\ n
+593	ôt\ nga
+822	ôt\ n√®
+389	ôt\ s
+319	ôt\ se\ 
+607	ôt\ t
+181	ôt\ √
+600	ôt\ …
+388	ôt\ …ìa
+186	ôt,
+178	ôt,\ 
+1274	ôt.
+643	ôt.\ 
+193	ôul
+189	ôule
+345	ôun
+222	ôund
+371	ô…î
+178	ô…îr
+230	†\ N
+223	†\ Nu
+223	†\ Nube
+275	†\ a
+467	†\ d
+330	†\ d√
+244	†\ d√®\ 
+209	†\ i
+1266	†\ k
+856	†\ ke
+216	†\ ke\ M
+611	†\ l
+512	†\ le
+782	†\ n
+307	†\ n√
+296	†\ n√®\ 
+395	†\ r
+351	†\ s
+270	†\ se
+653	†\ t
+228	†\ te
+282	†\ u
+275	†\ …
+194	†\ …î
+325	†de
+233	†de\ 
+516	†ge
+473	†ge\ 
+236	†ge\ ke
+391	†‚Äô
+185	†‚Äôt\ 
+376	°\ d
+210	°\ do
+214	°\ i
+176	°\ i\ 
+261	°\ m
+218	°\ m‚
+218	°\ m‚Äô
+347	°\ n
+281	°\ t
+275	°\ √
+229	°\ √®
+272	°\ …
+234	°\ …ì
+210	°\ …ìaa
+363	°n\ 
+330	°ng
+203	°ng\ 
+554	°r\ 
+296	®\ J
+214	®\ J√
+210	®\ J√©s
+361	®\ N
+288	®\ Nu
+288	®\ Nube
+489	®\ a
+395	®\ b
+239	®\ b√
+231	®\ b√®\ 
+1086	®\ d
+360	®\ de
+411	®\ do
+211	®\ doo\ 
+176	®\ doog
+687	®\ g
+314	®\ g√
+313	®\ g√©a
+197	®\ i
+411	®\ j
+199	®\ j√
+1890	®\ k
+234	®\ ka
+584	®\ ke
+781	®\ ku
+457	®\ kuwe
+652	®\ l
+199	®\ le
+213	®\ lo
+216	®\ l√
+690	®\ m
+405	®\ ma
+5859	®\ n
+774	®\ na
+445	®\ nang
+562	®\ nd
+2884	®\ ng
+1944	®\ nga\ 
+437	®\ nga,
+181	®\ nga.
+776	®\ nj
+282	®\ nj√®
+296	®\ nj√©
+600	®\ ny
+593	®\ nyan
+183	®\ n√
+654	®\ r
+512	®\ ra
+650	®\ s
+309	®\ se
+196	®\ si
+1530	®\ t
+205	®\ ta
+297	®\ te
+536	®\ t√
+224	®\ t√†\ 
+271	®\ t…
+237	®\ u
+1803	®\ √
+1376	®\ √°
+295	®\ √°\ d
+266	®\ √®
+972	®\ …
+732	®\ …ì
+321	®\ …ìaa
+207	®,\ 
+184	®-t√
+234	®.\ 
+697	®:\ 
+536	®:\ ¬
+341	®i\ 
+389	®ku
+219	®nd
+346	®nn
+342	®nn‚
+342	®nn‚Äô
+809	®‚Äô
+184	®‚Äôn\ 
+462	®‚Äôt\ 
+594	©\ a
+246	©\ a\ 
+220	©\ a\ t…
+180	©\ a,
+671	©\ b
+392	©\ b√
+343	©\ b√®\ 
+538	©\ d
+186	©\ d√
+242	©\ g
+197	©\ i
+2050	©\ k
+1590	©\ ke
+270	©\ ke\ k
+313	©\ ke\ n
+238	©\ ke\ r
+345	©\ l
+419	©\ m
+276	©\ ma
+1395	©\ n
+407	©\ nd
+312	©\ ng
+245	©\ nj
+529	©\ r
+336	©\ ra
+325	©\ s
+184	©\ se
+1067	©\ t
+287	©\ ta
+224	©\ te
+236	©\ t…
+198	©\ w
+192	©\ wa
+445	©\ √
+270	©\ √®
+775	©\ …
+716	©\ …ì
+257	©\ …ìaa
+196	©\ …ìai
+331	©,\ 
+195	©,\ n
+184	©,\ n√®
+222	©-k
+684	©.\ 
+258	©.\ N
+748	©a\ 
+395	©a,
+391	©a,\ 
+186	©e\ 
+180	©ge
+596	©i\ 
+183	©ke
+594	©ku
+377	©kuw
+362	©kuwe-
+463	©k√
+429	©k√©
+177	©rus
+176	©rusal
+2614	©su
+1910	©su\ 
+273	©su\ ed
+229	©su\ te
+265	©su-
+265	©su-Kr
+203	©su‚
+203	©su‚Äô
+220	©taa
+1062	©t√©
+245	©‚Äô
+281	™in
+232	™in\ 
+2381	™m\ 
+335	™m\ d
+361	™m\ k
+304	™m\ kei
+261	™m\ n
+188	™m\ nd…
+194	™m\ s
+684	™m\ …
+658	™m\ …ìe
+193	™m-
+175	™m-K
+175	™m-Kri
+330	™mn
+216	™mnd
+256	™m‚Ä
+209	™te
+182	™te\ 
+519	≤\ k
+393	≤\ ke
+267	≤\ s
+248	≤\ se
+225	≤\ se\ n
+207	¬ª\ 
+6840	√†\ 
+230	√†\ N
+223	√†\ Nub
+275	√†\ a
+467	√†\ d
+322	√†\ d√®
+209	√†\ i
+1266	√†\ k
+782	√†\ ke\ 
+611	√†\ l
+355	√†\ le\ 
+782	√†\ n
+307	√†\ n√®
+395	√†\ r
+351	√†\ s
+267	√†\ se\ 
+653	√†\ t
+282	√†\ u
+275	√†\ …
+332	√†d
+325	√†de
+671	√†g
+516	√†ge
+243	√†ge\ k
+227	√†k
+252	√†t
+391	√†‚Ä
+179	√†‚Äôn
+206	√†‚Äôt
+3061	√°\ 
+376	√°\ d
+210	√°\ doo
+214	√°\ i
+261	√°\ m
+218	√°\ m‚Ä
+347	√°\ n
+281	√°\ t
+275	√°\ √
+229	√°\ √®\ 
+272	√°\ …
+216	√°\ …ìa
+759	√°n
+363	√°n\ 
+330	√°ng
+203	√°ng\ 
+746	√°r
+554	√°r\ 
+19756	√®\ 
+214	√®\ J√©
+288	√®\ Nub
+489	√®\ a
+395	√®\ b
+237	√®\ b√®
+1086	√®\ d
+411	√®\ doo
+687	√®\ g
+313	√®\ g√©
+197	√®\ i
+411	√®\ j
+199	√®\ j√
+1890	√®\ k
+234	√®\ ka
+488	√®\ ke\ 
+781	√®\ ku
+457	√®\ kuw
+652	√®\ l
+175	√®\ le\ 
+211	√®\ loo
+215	√®\ l√©
+690	√®\ m
+405	√®\ ma
+5859	√®\ n
+561	√®\ nan
+562	√®\ nd
+233	√®\ ndi
+2741	√®\ nga
+179	√®\ nja
+583	√®\ nj√
+593	√®\ nya
+347	√®\ ra\ 
+650	√®\ s
+309	√®\ se
+1530	√®\ t
+205	√®\ ta
+297	√®\ te
+402	√®\ t√†
+271	√®\ t…î
+237	√®\ u
+1803	√®\ √
+1299	√®\ √°\ 
+262	√®\ √®\ 
+473	√®\ …ìa
+176	√®\ …ìe
+213	√®,
+207	√®,\ 
+216	√®-
+184	√®-t
+184	√®-t√†
+548	√®.
+234	√®.\ 
+2351	√®:
+697	√®:\ 
+536	√®:\ ¬´
+427	√®i
+341	√®i\ 
+833	√®k
+389	√®ku
+594	√®n
+219	√®nd
+346	√®nn
+342	√®nn‚Ä
+809	√®‚Ä
+220	√®‚Äôn
+523	√®‚Äôt
+10265	√©\ 
+594	√©\ a
+221	√©\ a\ t
+671	√©\ b
+391	√©\ b√®
+538	√©\ d
+242	√©\ g
+2050	√©\ k
+1539	√©\ ke\ 
+345	√©\ l
+276	√©\ ma
+1395	√©\ n
+407	√©\ nd
+276	√©\ nga
+245	√©\ nj
+290	√©\ ra\ 
+325	√©\ s
+184	√©\ se
+1067	√©\ t
+287	√©\ ta
+224	√©\ te
+236	√©\ t…î
+198	√©\ w
+191	√©\ wa?
+445	√©\ √
+270	√©\ √®\ 
+542	√©\ …ìa
+348	√©,
+331	√©,\ 
+185	√©,\ n√
+354	√©-
+222	√©-k
+1507	√©.
+684	√©.\ 
+1147	√©a
+748	√©a\ 
+395	√©a,
+333	√©e
+186	√©e\ 
+221	√©g
+180	√©ge
+825	√©i
+596	√©i\ 
+1631	√©k
+183	√©ke
+594	√©ku
+377	√©kuwe
+463	√©k√
+429	√©k√©\ 
+646	√©r
+177	√©ru
+177	√©rusa
+2690	√©s
+2614	√©su
+274	√©su\ e
+191	√©su\ n
+357	√©su\ t
+265	√©su-K
+203	√©su‚Ä
+1320	√©t
+221	√©ta
+203	√©taak
+1063	√©t√
+842	√©t√©\ 
+213	√©‚Äôt
+287	√™i
+232	√™in\ 
+188	√™l
+3429	√™m
+2381	√™m\ 
+218	√™m\ de
+318	√™m\ ke
+192	√™m\ nd
+178	√™m\ si
+682	√™m\ …ì
+193	√™m-
+175	√™m-Kr
+330	√™mn
+193	√™mnda
+256	√™m‚
+256	√™m‚Äô
+269	√™n
+436	√™t
+209	√™te
+189	√™w
+1514	√≤\ 
+519	√≤\ k
+350	√≤\ ke\ 
+267	√≤\ s
+246	√≤\ se\ 
+341	√≥\ 
+4732	…ìa
+2789	…ìaa
+2511	…ìaa,\ 
+1179	…ìai
+594	…ìar
+2861	…ìe
+2314	…ìee
+1045	…ìee\ 
+276	…ìee\ k
+226	…ìee\ l
+450	…ìee-b
+392	…ìeeko
+175	…ìel
+226	…ìer
+507	…ìi
+350	…ìit
+287	…ìita\ 
+605	…ì√
+541	…ì√°
+207	…ì√°\ …
+2583	…î\ 
+1235	…î\ k
+959	…î\ ke\ 
+242	…î\ n
+183	…î\ t
+1956	…î.
+694	…î.\ 
+177	…îb
+178	…îd
+1314	…îg
+464	…îge\ 
+312	…îgm
+312	…îgmon
+193	…îi
+1281	…îj
+1133	…îje
+510	…îje\ d
+229	…îje‚Ä
+670	…îk
+205	…îk\ 
+326	…îke
+626	…îl
+334	…îl\ 
+282	…în
+228	…în‚
+228	…în‚Äô
+2189	…îr
+1243	…îr\ 
+320	…îr\ n
+256	…îrg
+254	…îri
+234	…îr‚Äô
+481	…îs
+288	…îse\ 
+663	…ît
+525	…îte
+297	…îte\ k
+328	…î‚Äô
+383	…óa
+348	…óar
+346	…óarin
+728	ÃÇ\ 
+1521	‚Äì\ 
+444	‚Äì\ K
+245	‚Äì\ K√
+195	‚Äì\ N
+28262	‚Äô
+2417	‚Äôa
+805	‚Äôa\ 
+196	‚Äôa\ d
+381	‚Äôa\ m
+601	‚Äôade
+399	‚Äôan
+241	‚Äôan\ 
+297	‚Äôaw\ 
+1084	‚Äôe
+597	‚Äôede
+387	‚Äôee\ 
+630	‚Äôi
+280	‚Äôile
+338	‚Äôin
+1690	‚Äôm\ 
+317	‚Äôm\ k
+178	‚Äôm\ m
+249	‚Äôm\ n
+8418	‚Äôn\ 
+529	‚Äôn\ a
+993	‚Äôn\ d
+222	‚Äôn\ e
+237	‚Äôn\ g
+1616	‚Äôn\ k
+511	‚Äôn\ l
+290	‚Äôn\ m
+1283	‚Äôn\ n
+194	‚Äôn\ r
+459	‚Äôn\ s
+646	‚Äôn\ t
+320	‚Äôn\ √
+351	‚Äôn\ …
+524	‚Äôn.
+264	‚Äôn.\ 
+175	‚Äôndi
+225	‚Äôo
+315	‚Äôr
+183	‚Äôra\ 
+8415	‚Äôt\ 
+738	‚Äôt\ a
+272	‚Äôt\ b
+321	‚Äôt\ d
+397	‚Äôt\ e
+290	‚Äôt\ g
+709	‚Äôt\ k
+1401	‚Äôt\ l
+261	‚Äôt\ m
+1815	‚Äôt\ n
+389	‚Äôt\ s
+607	‚Äôt\ t
+181	‚Äôt\ √
+600	‚Äôt\ …
+178	‚Äôt,\ 
+1274	‚Äôt.
+643	‚Äôt.\ 
+922	‚Äôu
+189	‚Äôule
+222	‚Äôund
+371	‚Äô…î
+178	‚Äô…îr

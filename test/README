@@ -1,0 +1,18 @@
+Note that this directory includes samples of languages for which there
+is no language model in the default database.  These will often pick a
+closely-related language, but sometimes will appear to be selecting
+languages at random because there are only a few n-gram matches with
+varying languages; although the highest-scoring languages are picked,
+their scores are in fact fairly low.
+
+In addition, many of the Wikipedia-derived files contain some text in
+other languages, particularly when the Creative Commons license notice
+is included (this text is often in a major language related to the
+minor language of the localized Wikipedia, e.g. Italian for one of
+Italy's regional languages).
+
+Files containing the substring .PNGscriptures. are extracts from Bible
+translations distributed by http://pngscriptures.org/, and are
+licensed under the Creative Commons Attribution-Noncommercial-
+NoDerivatives v3.0 license (see http://pngscriptures.org/terms.htm for
+details).

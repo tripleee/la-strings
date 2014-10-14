@@ -1,0 +1,1021 @@
+v1.24 2014-08-19:
+   Improved n-gram weighting for language identification yields ~3%
+     relative reduction in classification errors in preliminary
+     testing.
+   Improved byte-based subsampling in 'subsample' results in much more
+     accurate size of result.  Eliminated subsample.C dependencies
+     on FramepaC to allow standalone distribution.
+   Added option to MkLangID to perform frequency smoothing using
+     a logarithmic mapping rather than P^y mapping; specify a
+     negative smoothing value for -S to activate.
+   Boosted model size for a small number of highly-confusible
+     language sets to 15000 n-grams for better discrimination.
+   Added --yali flag to eval.sh and counts.sh to support use of
+     Majlis's Yet Another Language Identifier as language
+     identification program in evaluations.
+   Fixed some compiler warnings for GCC 4.3.2 and 4.8.
+   Added Bible language models for Abu' Arapesh [Papua New Guinea],
+     Achagua [Colombia], Ache [Paraguay], Ajie [New Caledonia],
+     Anindilyakwa [Australia], Iraqi Arabic, North Mesopotamian
+     Arabic, Aralle Tabulahan [Indonesia], Arop-Lokep [Papua New
+     Guinea], Western Arrarnta [Australia], Assyrian Neo-Aramaic
+     [Iraq], Ata Manobo [Philippines], Bafia [Cameroon], Balangao
+     [Philippines], Bekwarra [Nigeria], (Ki)Beembe [Congo], Berik
+     [Indonesia], Beta-Bende [Nigeria], Binukid [Philippines],
+     Northern Birifor [Burkina Faso], Bisa [Nigeria], Bokubaru
+     [Nigeria], Eastern Bontok [Philippines], Bulu [Cameroon], Bomu
+     [Mali], Bowiri/Tuwuli [Ghana], Cacua [Colombia], Caluyanun
+     [Philippines], Car Nicobarese [India], Chakma [Bangladesh],
+     Chamacoco [Paraguay], Chavocano [Philippines], Chhattisgarhi
+     [India], Chuukese [Micronesia], Santa Teresa Cora [Mexico],
+     Darlong [India], Dii [Cameroon], Dimasa [India], Djimini Semoufo
+     [Cote Ivoire], Dogrib [Canada], Doyayo [Cameroon], Ejagham
+     [Nigeria], Ekajuk [Nigeria], Fon [Benin], Western Niger Fulfulde
+     [Niger], Gangte [India], Northwest Gbaya [Central African
+     Republic], Ghomala [Cameroon], Gilaki [Iran], Gor [Chad], Guanano
+     [Brazil], Gulay [Chad], Gumatj [Australia], Gumuz [Ethiopia], Hdi
+     [Cameroon], Helong [Indonesia], Hrangkhol [India], Huarijio
+     [Mexico], Minica Huitoto [Colombia], Ife' [Togo], Inabaknon
+     [Philippines], Labrador Inuttitut [Canada], Irigwe [Nigeria],
+     Mazatec Ixcatlan [Mexico], Jorai [Vietnam], Kagayanen
+     [Philippines], Kakwa [Uganda], Kalanga [Zimbabwe], Karbi [India],
+     Kilivila [Papua New Guinea], Kim [Chad], Kisar [Indonesia],
+     Konabere [Burkina Faso], Kouya [Cote Ivoire], Plapo Krumen [Cote
+     Ivoire], Kuo [Chad], Kwamera [Vanuatu], Kwere [Tanzania], Lamba
+     [Zambia], Lamkang [India], Lobiri [Burkina Faso], Lokaa
+     [Nigeria], Lozi [Zambia], Luguru [Tanzania], Mafa/Mofa
+     [Cameroon], Maguindanaon [Philippines], Maka [Paraguay], Malvi
+     [India], Marba/Azumeina [Chad], Maskelyenes [Vanuatu], Mayo
+     [Mexico], Jalapa de Diaz Mazateco [Mexico], Micmac [Canada],
+     Mising [India], Magdalena Penasco Mixtec [Mexico], Metlatonoc
+     Mixtec [Mexico], Mokole [Benin], Moro [Sudan], Mundang [Chad],
+     Musey [Chad], Muyang [Cameroon], Ao Naga [India], Chang Naga
+     [India], Konyak Naga [India], Maram Naga [India], Moyon Naga
+     [India], Nocte Naga [India], Naro [Botswana], Pamplona Atta
+     [Philippines], Phom Naga [India], Poumei Naga [India], Sangtam
+     Naga [India], Wancho Naga [India], Yimcungru Naga [India], Zeme
+     Naga [India], Nawdm [Togo], Ndamba [Tanzania], Nenets [Russia],
+     Ngaanyatjarra [Australia], Nukna [Papua New Guinea], Nung
+     [Vietnam], Nunggubuyu/Wubuy [Australia], Ngulu [Tanzania],
+     Brooke's Point Palawano [Philippines], Pogolo [Tanzania], Pular
+     [Guinea], Ranglong [India], Rarotongan [Cook Islands], Riang
+     [India], Carpathian Romani [Czech Republic], Saveeng Tuam [Papua
+     New Guinea], Selee [Ghana], Seselwa Creole French [Seychelles],
+     Simte [India], Siwu [Ghana], Soga [Uganda], Sunwar [Nepal],
+     Tagabawa [Philippines], Tai [Papua New Guinea], Tanimuca-Retuara
+     (Letuama) [Colombia], Tonga [Zambia], Tupuri [Cameroon],
+     Cyrillic-script Uyghur [China], Vaiphei [India], Vute [Cameroon],
+     Waama [Benin], Walmajarri [Australia], Warao [Venezuela], Yakan
+     [Philippines], Yaoure [Cote Ivoire], Yocoboue Dida [Cote Ivoire],
+     Zaiwa [China], Yareni Zapotec [Mexico], Zigula [Tanzania], and
+     Zyphe [Myanmar].
+   Added small models for Balochi [India] in both Arabic and Latin
+     scripts based on the Gospel of Matthew (~110KB).
+   Added Wikipedia models for Abkhaz [Georgia], Anglo-Saxon, Bakhtiari
+     [Iran], Emilian-Romagnol [Italy], Franco-Provencal
+     [France/Switzerland/Italy], Kabardian [Russia], Komi-Permyak
+     [Russia], Goan Konkani [India], Latgalian [Latvia], Lezgian
+     [Azerbaijan], Livonian [Latvia], Lojban [constructed language],
+     Northern Luri [Iran], Min Dong [China], Mirandese [Portugal],
+     Pali [India], Picard [France/Belgium], Pontic [Greece], Ripuarian
+     [Germany], Talysh [Azerbaijan], Tulu [India], and Yiddish (had
+     existing non-Wiki models).  Zamboanga Chavacano [Philippines]
+     Wikipedia was *not* added because it is largely Spanish.
+   Updated Abwaresen-Wore(Chumburung), Tiddim Chin, Chol-Tumbala,
+     Dari, Manx Gaelic, Mbya Guarani, San Blas Kuna, Malayalam,
+     Southern Mam, and Yalunka with complete Bibles.
+   Updated Adyghe and Breton to full New Testament.
+   Updated Borong with additional Bible text.
+   Updated Danish, Dutch, Finnish, German, Greek, Italian, and Swedish
+     Europarl models to Europarl v7 text.  Replaced French and Spanish
+     Gigaword models with Europarl models.  Added Europarl English as
+     en_GB to complement the existing en_US models; US versus British
+     will be displayed when using options that show the region as well
+     as the language code (e.g. the default for 'whatlang').
+   Updated Asturian, Bavarian, Banjar, Bashkir, Bengali,
+     Bihari/Bhojpuri, Bosnian, Chechen, Cornish, Croatian, Egyptian
+     Arabic, Extremaduran, Galician, Gan, Gilaki, Hill Mari, Javanese,
+     Karachay-Balkar, Kashubian, Komi, Limburgian, Lower Sorbian,
+     Luxembourgish, Maltese, Mazandarini, Meadow Mari, Mingrelian,
+     Moksha, Navajo, Neapolitan, Ossetic, Piedmontese, Pfaelzisch,
+     Romansh, Rusyn, Sakha, Northern Sami, Samogitian, Sardinian,
+     Saterland Frisian, Scots, Sicilian, Silesian, Swiss
+     German/Alsatian, Upper Sorbian, Central Atlas Tamazight,
+     Tarantino, Tibetan, Turkmen, Udmurt, Venetian, Veps, Vlaams,
+     Voro, Walloon, Wu, Zazaki, and Zealandic with newer/additional
+     Wikipedia text.
+   Added Bible to Wikipedia text for Nynorsk and Papiamentu.
+   Added Bible to Europarl text for German.
+   Added Bible to bibleschool.com text for Bemba and (Chi)Chewa.
+   Added alternate orthography for Wounaan/Woun-Meu.
+   Replaced numerous Bibles with known-redistributable copies.
+   [languages.db: total languages=1371+3, total models=4652+5, lang/code
+     pairs=4466+5, total encodings=38]
+
+v1.23 2013-08-28:
+   Added missing initializations to scan_strings so that
+     bulk_extractor plugin extracts the same strings as the standalone
+     version.  Fixed multi-threading crash.
+   Added setlocale("en_US.UTF-8") for systems on which
+     setlocale("UTF-8") fails.
+   Added --batch flag to eval.sh to run all identifications in a
+     single invocation of the identification program, to avoid startup
+     overhead (particularly for LangDetect and langid.py).  Added
+     util/score.C to perform bulk scoring on batch-mode identification
+     output.
+   Fixed eval.sh line-counting with --utf16be and --utf16le.
+   Added pseudo-model for HTML markup.
+   Added Bible models for traditional-orthography Achi Rabinal
+     [Guatemala], Arabic-script Caka (Nigerian) Fulfulde [Nigeria],
+     Ma'di [Uganda], Bahasa Manggarai [Indonesia], Naga Lotha [India],
+     Sango [Central African Republic], Sekpele [Ghana].  Updated
+     Madurese [Indonesia] with Old Testament.
+   [languages.db: total languages=1193+3, total models=4004+5, lang/code
+     pairs=3860+5, total encodings=38]
+
+v1.22 2013-07-30:
+   Fleshed out bulk_extractor interface in scan_strings.C.  Requires
+     bulk_extractor v1.4.0 (tested with beta3).
+   Added support for running langid.py
+     (https://github.com/saffsd/langid.py) from eval.sh, and
+     --minlen/--maxlen options for characterizing error rates at
+     varying string lengths.
+   Corrected problem with line counting in eval.sh when using
+     --utf16be and --utf16le.  Fixed bug in mklangid when building
+     UTF16 models without using -2b/-2l/-8b/-8l.
+   MkLangID was not correctly filtering ngrams for ASCII-16BE and
+     UTF-16BE, because the deciding byte of the second character is
+     the fourth byte of the ngram, and the filtering took place at the
+     trigram-counting stage.
+   Added make targets for language databases omitting UTF16 models.
+     Modified build process to eliminate warnings for "top100" databases.
+   Added several missing UTF16 models. Added romanized Hindi language
+     models.  Updated Marshallese training data to full Bible.
+   Replaced Sumo-Mayangna (sum_NI) by Mayangna (yan_NI), following ISO
+     639-3 update.
+   Added Wikipedia language models for North Frisian [Germany], Moksha
+     [Russia], Rusyn [Ukraine], Samogitian [Lithuania], Veps [Russia],
+     and Zeelandic [Netherlands].  Updated Assamese models with
+     Wikipedia data.
+   Added Bible language models for Kazakh to complement Wikipedia
+     models.  Updated (Ki)Nyakyusa Bible models with Old Testament.
+   Added Bible language models for Acholi [Uganda], Ajyininka
+     Apurucayali [Peru], Alur [Congo], Alyawarr [Australia], Anmatyerr
+     [Australia], Atkan/Western Aleut [US], Ava Guarani [Paraguay],
+     Chadian Arabic (Arabic and Latin scripts), Moroccan Arabic,
+     Ayoreo [Paraguay], Mara Chin [India], Dhimba/Zemba [Angola],
+     Dhopadhola [Uganda], Southwest Gbaya [Central African Republic],
+     South Giziga [Cameroon], Gurage Chaha [Ethiopia], Kahua [Solomon
+     Islands], Kambaata [Ethiopia], Kandawo [Papua New Guinea], Kasem
+     [Ghana], Konso [Ethiopia], Koorete [Ethiopia], Kirundi [Burundi],
+     Southern Kisi [Liberia], Guinea Kpelle [Guinea], Kuku-Yalanji
+     [Australia], Kunama [Eritrea], Kupsapiiny [Uganda], Lango
+     [Uganda], Lenje [Zambia], Lumasaaba [Uganda], Lusamya-Lugwe
+     [Uganda], Maale [Ethiopia], Macushi [Brazil], Masana [Chad],
+     Mbunda [Zambia], Santa Lucia Monteverde Mixtec [Mexico], North
+     Mofu [Cameroon], Nama [Namibia], Ngambay [Chad], Nsenga [Zambia],
+     Eastern Oromo [Ethiopia], Oshiwambo [Angola], Plautdietsch
+     [Canada], Purepecha [Mexico], Runyankore-Rukiga [Uganda],
+     Runyoro-Rutoro [Uganda], Saliba [Papua New Guinea], (Ci)Sena
+     [Mozambique], Swati [Swaziland], Takwane [Mozambique], Eastern
+     Tawbuid [Philippines], Thang [Vietnam], Toba [Argentina], Upper
+     Necaxa Totonac [Mexico], Ucayali-Yurua Asheninka [Peru],
+     Uripiv-Wala-Rano-Atchin [Vanuatu], Warlpiri [Australia], Wejewa
+     [Indonesia], Wichi Lhamtes Guisnay [Argentina], Wichi Lhamtes
+     Nocten [Bolivia], Zaniat/Bualkhaw Chin [Myanmar], Zapotec de
+     Coatecas Altas [Mexico].
+   [languages.db: total languages=1188+2, total models=3980+4, lang/code
+     pairs=3843+4, total encodings=38]
+
+v1.21 2013-05-31:
+   Added -16b/-16l flags to 'whatlang' to permit input of UTF16BE and
+     UTF16LE text in line-by-line mode (echoed text is converted to
+     UTF8).  Upgraded evaluation scripts to support testing of UTF16
+     language identification from UTF8 test/key files with new
+     --utf16be and --utf16le flags.
+   Added -l and -L flags to langident/subsample to sample lines by
+     length in bytes, and -b flag to sample uniformly with a target
+     size in bytes instead of number of lines
+   Added -S flag to langident/mklangid to allow score smoothing power
+     to be set from the commandline for tuning experiments
+   Added support for running Shuyo's LangIdent from eval.sh.
+   Corrected training error for UTF16BE and UTF16LE models for Polish,
+     Hakka, and Pampangan.
+   Added Bible language models for Algonquin [Canada], Ethiopic-script
+     Gamo [Ethiopia], Gangam [Togo], Devanagari-script Garo [India],
+     Ge'ez [Ethiopia], Hanga Hundi [Papua New Guinea], Hmong Daw/White
+     Miao [China], Kaluli [Papua New Guinea], Kanela [Brazil], Mbai
+     [Chad], Mocovi [Argentina], Moose Cree [Canada], Naga Mao
+     [India], Northern Pwo Karen [Thailand], Odoodee [PNG], Paici [New
+     Caledonia], Parauk Wa [Myanmar], Pilagi [Argentina], Pranan
+     [Philippines] Sar [Chad], Sinama/Central Sama [Philippines],
+     Sola/Miyobe [Benin], Suba [Kenya], Wapishana [Guyana], and Yawa
+     [Indonesia].
+   Updated models for Barasana-Eduria [Colombia] and Mixtepec
+     Zapotepec [Mexico] with Bible text from ScriptureEarth which is
+     redistributable.  Updated models for Kyaka Enga [PNG] with Bible
+     text from PNGScriptures.org which is redistributable.
+   [languages.db: total languages=1119+2, total models=3737+3, lang/code
+     pairs=3614+3, total encodings=38]
+
+v1.20 2012-11-21:
+   Corrected search order for language database file.
+   Corrected some language and country codes.
+   Corrected support for XZ-compressed input files for MkLangID.
+   Added support for a separate set of language models for
+     character-set identification to la-strings.  Added -C option to
+     MkLangID to convert a language database into another database
+     containing a smaller number of models merged from the models in
+     the original database (initially a single model for each distinct
+     character encoding).  This nearly doubles la-strings throughput
+     on random data with language identification for the full
+     languages.db and increases it by 25% for top100.db.
+   Added Bible language models for Amarakaeri [Peru], Bambam
+     [Indonesia], Cashibo-Cacataibo [Peru], Da'a Kaili [Indonesia],
+     Ditammari [Benin], Eastern Kaqchikel [Guatemala], Iraqw
+     [Tanzania], Jamaican Creole English, Joyabaj Quiche [Guatemala],
+     Kasem [Burkina Faso], Merey [Cameroon], Trinitario [Bolivia],
+     Tsimane [Bolivia], Tucano [Colombia], Tuwali Ifugao
+     [Philippines], and Yanesha [Peru].
+   Added further training data for Pampangan [Philippines], San
+     Vicente Coatlan Zapotec [Mexico], Wolaitta [Ethiopia], and Zuni
+     [US].
+   Updated language models for Akateko/Western Kanjobal [Guatemala],
+     Akawaio [Guyana], Ashaninca [Peru], Asheninka-Pichis [Peru],
+     Belize Creole English, Bora [Peru], Bribri [Costa Rica], Carib
+     [Venezuela], Cavinena [Bolivia], Chayahuita/Shahui [Peru],
+     Chiquitano [Bolivia], Chorti [Guatemala], Cofan [Colombia],
+     Colorado [Ecuador], Cuiba [Colombia], Desano [Brazil], Eastern
+     Apurimac Quechua [Peru], Eastern Jakalteko [Guatemala], Eastern
+     Tzutujil [Guatemala], Guambiano [Colombia], Guaymi [Panama],
+     Guajajara [Brazil], Gullah [US], Huaylla Wanca Quechua [Peru],
+     Kadiweu [Brazil], Matses [Peru], Matsigenka [Peru], Nkonya
+     [Ghana], Nomatsiguenga [Peru], Northern Paiute [US], O'othham /
+     Tohono Oodham [US], Otomi del Estado de Mexico, Satere Mawe
+     [Brazil], Sharanahua [Peru], Shuar [Ecuador], Sierra Juarez
+     Zapotec [Mexico], Southwestern Kaqchikel [Guatemala], Tarahumara
+     del Centro [Mexico], Tenango Nahuatl [Mexico], Tucano [Brazil],
+     Tuyuca [Colombia], Tzotzil San Andres [Mexico], Urarina [Peru],
+     Yaminahua [Peru], Yucuna [Colombia], and Western Tzutujil
+     [Guatemala].  Many of these updates replaced bible.is-derived or
+     GospelGo-derived text with Bibles from ScriptureEarth, which are
+     known to be redistributable.
+   [languages.db: total languages=1096+1, total models=3653+2, lang/code
+     pairs=3530+2]
+
+v1.19 2012-10-21:
+   Reallocated bits in language database's frequency records to permit
+     8191 language models instead of 4095; moved computation of
+     frequency smoothing to database creation time to reduce
+     quantization error with the reduced available range after bit
+     reallocation.
+   Recoded innermost n-gram counting loops for a 40% reduction in
+     language identification time.
+   Fixed truncation error when generating fake UTF-8 language model from
+     Unicode codepoint range
+   Removed executables from distribution archive.
+   Added Bible language models for Alune [Indonesia], Angami Naga
+     [India], Bariai [Papua New Guinea], Belize Kriol English
+     [Belize], Bolinao [Philippines], Buamu [Burkina Faso], Southern
+     Carrier [Canada], Chorote [Argentina], Church Slavonic [Russia],
+     Enga [PNG], Garifuna [Honduras], Ethiopic-script and Latin-script
+     Goffa dialect of Gamo [Ethiopia], Han-script Hakka [China], Hopi
+     [US], Ikwere [Nigeria], Ivbie North-Ikpela-Arhe [Nigeria], Jabem
+     [PNG], Kafa [Ethiopia], Kankanaey [Philippines], Kikuyu / Gikuyu
+     [Kenya], Kuanua [PNG], Kupang [Indonesia], Lashi / Lacid
+     [Myanmar], Mamasa [Indonesia], Marik [Papua New Guinea], Yucatan
+     Maya [Mexico], San Antonio and San Jeronimo Mazatec [Mexico],
+     Mazatlan Mixe [Mexico], Migabac [PNG], Morisyen [Micronesia],
+     Motu [PNG], Ndongo / Oshindonga [Namibia], Ninzo [Nigeria], Obo
+     Manobo [Philippines], Latin-script Ojibwe [Canada], Pohnpeian
+     [Micronesia], Plateau Malagasy [Madagascar], Napo Lowland Quechua
+     [Peru], Tena Lowland Quechua [Ecuador], Sinte Romani [Serbia],
+     Saveeng Oov [PNG], Teso [Uganda], Tsikimba [Nigeria], Tsishingini
+     [Nigeria], Bachajon Tzeltal [Mexico], Oxchuc Tzeltal [Mexico], Wa
+     [China], and Yuracare [Bolivia].
+   Added language models for Bemba [Zimbabwe], Garo [India], and
+     Nyanja / Chichewa [Malawi] based on text from bibleschools.com.
+   Updated language models for Kandas [Papua New Guinea], Khasi
+     [India], Madak [PNG], Omwunra-Toqura (South Tairora) [PNG], Suau
+     [PNG], and Tangga [PNG].
+   Added Bible model for Kinyarwanda in addition to Wikipedia model.
+     Added Bible model for Turkish in addition to Deutsche Welle
+     model.  Added Gothic-script Gothic language model (Latin-script
+     Gothic already existed).  Added Limbu-script Limbu Bible model
+     (Devanagari-script model already existed).  Added New Testament
+     Bible text to existing Lingala Wikipedia text.  Added Old
+     Testament to Swahili model.
+   Added deuterocanonical Bible books to Standard Malay language model.
+   [languages.db: total languages=1080+1, total models=3598+2, lang/code
+     pairs=3480+2]
+
+v1.18 2012-08-24:
+   Modified weighting of stopgrams to take the absolute amount of
+     training data for a language into account and rebuilt language
+     models.
+   Fix for missing <unistd.h> includes under Fedora 17.
+   Fixed segfault at end of la-strings run when using -C without -i.
+   Added Bible language models for Western Apache [United States],
+     Baikari [Brazil], Chachi/Cayapa [Ecuador], Nadeb [Brazil],
+     Secoya [Ecuador], and Seimat [Papua New Guinea].
+   [languages.db: total languages=1032+1, total models=3414+2, lang/code
+     pairs=3306+2]
+
+v1.17 2012-07-31:
+   Made a version of extract_text() function which takes an object
+     providing access to an input stream for ease of integration
+     inside a larger program.
+   Added code to check for and skip blocks of repeated bytes.   
+   UTF-8 extraction no longer considers encodings of values above
+      0x10FFFF (the highest Unicode codepoint) as valid.
+   Augmented existing (small) Manx Gaelic and Pennsylvania German
+     models with Wikipedia data.
+   Augmented existing (small) Aromanian Wikipedia model with Bible
+     study text.
+   Added Bible language models for Agusan Manobo [Philippines], Ainu
+     [Japan], Cavinena [Bolivia], Central Kaqchikel [Guatemala],
+     Colorado [Ecuador], Embera-Catio [Colombia], Kadiweu [Brazil],
+     Kukele [Nigeria], Tamajeq [Niger], Tetun Dili [East Timor], and
+     Yucuna [Colombia].
+   Added Wikipedia language models for Extremaduran [Spain],
+     Karachay-Balkar [Russia], Ligurian [Italy], Lower Sorbian
+     [Germany], Mazandarani [Iran], Mingrelian [Georgia], Sardinian
+     [Italy], Saterland Frisian [Germany], Silesian [Czech Republic],
+     and Udmurt [Russia].
+   Added language models for Nyungwe [Mozambique] using text from
+     lidemo.net.
+   [languages.db: total languages=1026+1, total models=3395+2, lang/code
+     pairs=3287+2]
+
+v1.16 2012-06-26:
+   MkLangID was incorporating the contents of languages.db even when
+     creating a different database.  Fixed.
+   Added -ub and -ul options to la-strings to convert output to
+     UTF-16BE or UTF-16LE, and -M to force Microsoft-style CRLF
+     newlines.
+   Added Bible language models for Amarasi [Indonesia], Southeast
+     Ambrym [Vanuatu], Angal Heneng [Papua New Guinea], Apalai
+     [Brazil], Banggai [Indonesia], Batak Angkola [Indonesia],
+     Bisaya-Inunhan [Philippines], Boko [Benin], Bukawa [Papua New
+     Guinea], Burarra [Australia], Dangaleat [Chad], Southern Dong
+     [China], Edolo [Papua New Guinea], Ese Ejja [Bolivia], Galela
+     [Indonesia], Western Bolivian Guarani, Hiri Motu [Papua New
+     Guinea], Hmong [China], Kala Lagaw [Australia], Kaingang
+     [Brazil], Kapingamarangi [Marshall Islands], Kate [Papua New
+     Guinea], Kenyah [Indonesia], Kosarek [Indonesia], Kriol
+     [Australia], Kube [Papua New Guinea], Luang [Indonesia], Mandinka
+     [Senegal], Meadow Mari [Russia], Meyah [Indonesia], Mizo/Lushai
+     [India/Myanmar], Mordvin-Erzya [Russia], Moskona [Indonesia],
+     Mwani [Mozambique], Nambikuara [Brazil], Nangnda Bedjond [Chad],
+     Paama [Vanuatu], Eastern Panjabi [India], Piratapuyo [Brazil],
+     Popoloca San Juan Atzingo [Mexico], Suau [Papua New Guinea],
+     Tangoa [Vanuatu], North Tanna [Vanuatu], Southwest Tanna
+     [Vanuatu], North Tairora [Papua New Guinea], Thadou Kuki [India],
+     Timor Dawan [Indonesia], Urubu Kaapor [Brazil], Wik-Mingkan
+     [Australia].
+   Updated language models for Bicolano, Chiquitano, Ignaciano, and
+     Highland Inga.  Augmented language models for Corsican, Oromo, and
+     Tongan with Bible data.  Cleaned language model for Northern
+     Sami.
+   [languages.db: total languages=1004+1, total models=3319+2, lang/code
+     pairs=3211+2]
+
+v1.15 2012-04-19:
+   Fixed memory leak when using la-strings -I0.
+   Renamed con.* (Cofan) language model files for Windows compatibility.
+   Added Bible language models for Chatino Nopala [Mexico], Cho Chin /
+     Mu"n Chin [Myanmar], Macuna [Colombia], Nigerian Fulfulde,
+     Rikbaktsa [Brazil], Southern Samo [Burkina Faso].  Added
+     additional models for Iu Mien [China] based on new Bible
+     translation in Lao script, Thai script, and two romanizations.
+   Added Wikipedia language models for Northern Sami [Norway],
+     Sicilian [Italy], Vlaams / West-Flemish [Belgium], Voro
+     [Estonia], and Wu Chinese.
+   Augmented Kalaallisut training data with Bible text.
+   Added missing 16-bit models for Latin-script Buginese, Hmar,
+     Ndebele and Northern Sotho. 
+   Removed bigrams from distributed language models because they were
+     found to have minimal effect on classification accuracy while
+     more than doubling classification time.  Bumped up top-k to
+     3500/5000 for better classification accuracy while still reducing
+     the size of the model database by 20%.
+   [languages.db: total languages=955+1, total models=3168+2, lang/code
+     pairs=3060+2]
+
+v1.14 2012-03-13:
+   Added -W option to la-strings and langident/whatlang to permit the
+     weights of bigrams and stopgrams to be set from the commandline.
+     Adjusted default weights based on experiments with full test set.
+     MkLangID's -n flag no longer eliminates trigrams starting with a
+     blank, only those starting with two blanks.
+   Modified n-gram weighting to cut error rates by 1/4 to 1/3 and
+     optimized inner loop of language identifier, reducing its overall
+     runtime by 45%.
+   Added language models for Adyghe [Russia], Altai [Russia],
+     Asheninka Pajonal [Peru], Blackfoot [Canada], Buhid
+     [Philippines], Dakota [US], Djambarrpuyngu [Australia], San Luis
+     Potosi Huasteco [Mexico], Itawit [Philippines], Kaiwa
+     [Argentina], Karaja [Brazil], Miskito [Nigeria], Muna
+     [Indonesia], Naskapi [Canada], Ngiemboon [Cameroon], Nigerian
+     Pidgin, Pamona [Indonesia], Botolan Sambal [Philippines],
+     Sumo-Mayangna [Nicaragua], Canar Highland Quichua [Ecuador],
+     Imbabura Quichua [Ecuador], Eastern Tamang [Nepal], Tboli
+     [Philippines], Tenharim [Brazil], Terena [Brazil], and Venda
+     [South Africa].
+   Upgraded Basque, Iban, Igbo, Marathi, and Oriya training data with
+     more complete Bible translations.
+   Added UTF-16 models for Basque, Gothic, Igbo, Romani, Romansh,
+     Samoan, and Scots.
+   [languages.db: total languages=944+1, total models=3111+2, lang/code
+     pairs=3016+2]
+
+v1.13 2012-02-29:
+   Added -C option to la-strings to print counts of the number of
+     strings in each language that were extracted; may be combined
+     with -I0 to show only the totals rather than printing the
+     identified language for each string.
+   Added util/icuconv.C to convert character sets to/from UTF-8 using
+     libicu (International Components for Unicode) and util/icutrans.C
+     as a trivial front-end to the libicu romanization functions.
+   Added util/mktestset.sh and util/eval.sh to generate and evaluate
+     single-language test sets from held-out data, and
+     util/interleave.c to generate a multi-language test set.
+   Tweaked inter-string smoothing function in la-strings language
+     identification.  Added -b2 option to langident/whatlang to apply
+     same smoothing to its per-line language identification.
+   Based on large-scale experiments, bumped maximum length back up to
+     6/8 and top-k to 3000/4000 (single/multi-byte characters).
+     Performance starts to degrade for longer n-grams, while
+     performance asymptotically improves as top-k increases.
+   Corrected the training of ASCII-16 and UTF-16 models for many of
+     the languages added prior to v1.10 to use the settings for
+     multi-byte scripts instead of single-byte scripts.  Added missing
+     -A2 flag for a number of other 16-bit models.
+   Added language models built from Bible translations for Achang /
+     Ngochang [China], Agutaynen [Philippines], Asheninka-Pichis
+     [Peru], Balkar [Russian Federation], Bawm Chin [India], Yepocapa
+     Cakchiquel [Guatemala], Chatino de Zona Alta [Mexico], Cheyenne,
+     Dholuo [Kenya], Northern Grebo [Liberia], Guajajara [Brazil],
+     Hakha / Lai [Myanmar], Hanunoo [Philippines], Hawaii Creole
+     English [US], Iraya [Philippines], Islander Creole English
+     [Colombia], Kalmyk-Oirat [Russian Federation], Karakalpak
+     [Uzbekistan], Pwo Karen [Myanmar], S'gaw Karen [Myanmar], Khakas
+     [Russia], Kisonge [Congo], Komi-Zyrian [Russian Federation],
+     Cotabato Manobo [Philippines], Matses [Peru], Matu Chin / Nga La
+     [Myanmar], Mbya [Brazil], Mixtec de Santa Maria Zacatepec
+     [Mexico], Ngawn [Myanmar], Nkonya [Ghana], Nomatsiguenga [Peru],
+     Otomi del Estado de Mexico, Patamona [Guyana], Piapoco
+     [Colombia], Pipil-Nawat [El Salvador], Popoloca Temalacayua
+     [Mexico], Eastern Apurimac Quechua [Peru], Huamalies Quechua
+     [Peru], Sharanahua [Peru], Shipibo-Conibo [Peru], Shuar
+     [Ecuador], Sizang / Siyin Chin [Myanmar], Tarahumara del Centro
+     [Mexico], Tedim [Myanmar], Tetun [Indonesia], Toura [Ivory
+     Coast], Tshiluba / Luba-Kasai [Congo], Cyrillic-script Turkmen,
+     Txitxopi / Chopi [Mozambique], Tzotzil San Andres [Mexico],
+     Northern Uzbek [Uzbekistan], Vagla [Ghana], Yaminahua [Peru],
+     Zapoteco de San Vicente Coatlan [Mexico], Zapoteco de Sierra
+     Juarez [Mexico], and Zotung [Myanmar].
+   Added UTF-8, UTF-16BE, and UTF-16LE languages models for Assamese
+     built with text collected from enajori.com.  Added UTF-8,
+     UTF-16BE, and UTF-16LE models for Bhojpuri built from web data.
+     Added (small) language model for Kashubian [Poland] built from
+     web pages.  Added language model for Khasi [India] built from
+     mawphor.com web pages, Project Gutenberg text, and Bible text.
+   Added Wikipedia-based models for Oriya [India] (replacing faked
+     model), and Western Panjabi [Pakistan].  Augmented Kashubian
+     training data with Wikipedia pages. 
+   Added missing 16-bit models for Banjar, Bicolano, Breton, Calo,
+     Catalan, Chamorro, Cornish, Corsican, Estonian, Hanga, Hakka
+     Chinese, Ido, Ilocano, Javanese, Latvian, Lingala, Lithuanian,
+     Malagasy, Malay, Maltese, Maori, Moore, Orya, Papiamentu, Polish,
+     Syriac, Tongan, Latin-script Turkmen, Uma, Upper Sorbian,
+     Volapuk, Walloon, Waray-Waray, Welsh, Wolof, and Zazaki.
+   Eliminated the portions of the Paasaal (sig_GH) training data which
+     were corrupt on bible.is.
+   [languages.db: total languages=918+2, total models=2995+2, lang/code
+     pairs=2908+2]
+
+v1.12 2012-01-08:
+   Eliminate singleton bigrams from language models as they take up
+     space in the database while not contributing to scoring.
+   Based on additional experimentation, reduced maximum n-gram length
+     to 5/8 for single/multi-byte texts and n-gram count to 2500 for
+     most languages and 4000 for a few (mostly CJK languages), which
+     reduced the language database size by a further factor of three.
+   Implemented -L flag to MkLangID to limit training to first N bytes
+     of the input data, enabling ablation experiments.
+   Added 'langident/subsample' program to permit holding out a portion
+     of the language training data for testing.
+   Added optional build target 'top100.db' to build a database of the
+     top 100 languages by first-language speakers (according to
+     Ethnologue), plus a few official EU languages that don't quite
+     make the top 100.
+   Added language models built from Bible translations for Awadhi
+     [India] (UTF-8, UTF-16BE, and UTF-16LE), Latin-script Balinese
+     (UTF-8, UTF-16BE, and UTF-16LE), Batak Toba [Indonesia], Biatah
+     [Indonesia], Bima [Indonesia], Dusun [Malaysia], Ekegusii
+     [Kenya], Fulfulde Adamawa [Nigeria], Joly Fonyi [Senegal],
+     Eastern Kayah [Myanmar] (UTF-8, UTF-16BE, and UTF-16LE),
+     Kamera/Gamera [Australia], Ledo [Indonesia], Luganda [Uganda],
+     Ma'anyan [Philippines], Maithili [India] (UTF-8, UTF-16BE, and
+     UTF-16LE), Maranao [Philippines], Marshallese, Marwari [India],
+     Mien [China], Minangkabau [Indonesia] (UTF-8, UTF-16BE, and
+     UTF-16LE), romanized Mongolian, Mongolian-script Central
+     Mongolian, Murut Timugon [Malaysia], Nalca [Indonesia], Napu
+     [Indonesia], Ngalum [Indonesia], Ot Danum [Indonesia], Paite
+     [India] (ASCII, ASCII-16BE, and ASCII-16BE), Northern Paiute
+     [US], Western Penan [Malaysia/Brazil], Sabu [Indonesia], Shahui
+     [Peru] (UTF-8, UTF-16BE, UTF-16LE), Serawai [Indonesia], Siriono
+     [Bolivia], Siau/Sangir [Indonesia], Sougb [Indonesia], Tabaru
+     [Indonesia], Tobelo [Indonesia], and Winnebago [US].
+   Added models for 101 additional languages (in UTF8, UTF-16BE, and
+     UTF-16LE) built using Bible translations from scriptureearth.org
+     (mostly Mexican and South American languages).
+   Added Quran translation for Sindhi [Pakistan] (UTF-8, UTF-16BE, and
+     UTF-16LE).
+   [languages.db: total languages=862+2, total models=2688+2, lang/code
+     pairs=2602+2]
+
+v1.11 2011-12-31:
+   Added language models built from Bible translations for Aceh
+     [Indonesia] (UTF-8, ASCII-16BE, and ASCII-16LE), Achi de Cubulco
+     [Guatemala] (UTF-8, ASCII-16BE, and ASCII-16LE), Arapaho (UTF-8,
+     UTF-16BE, and UTF-16LE), Latin-script Buginese (UTF-8), Fijian
+     (ASCII, ASCII-16BE, and ASCII-16LE), Hakka Chinese [Taiwan]
+     (Latin-1, UTF-8, ASCII-16BE, and ASCII-16LE), Hanga [Ghana]
+     (UTF-8, UTF-16BE, and UTF-16LE), Eastern Kanjobal [Guatemala]
+     (UTF-8), Lamba/Lama [Togo] (UTF-8, UTF-16BE, and UTF-16LE),
+     Madurese [Indonesia] (Latin-1, UTF-8, ASCII-16BE, and
+     ASCII-16LE), Uighur/Uyghur (UTF-8, UTF-16BE, and UTF16-LE),
+     Waimaha [Colombia/Brazil] (UTF-8, UTF-16BE, and UTF-16LE), and
+     Zuni (UTF-8, UTF-16BE, and UTF-16LE).
+   Added models built from Project Gutenberg e-texts for Calo'
+     [Brazil] (Latin-1 and UTF-8), Friulian (Latin-1, UTF-8,
+     ASCII-16BE, and ASCII-16LE) and Inuktitut (Latin-1, UTF-8,
+     ASCII-16BE, and ASCII-16LE).
+   Added faked UTF-8 language models for Oriya-script Oriya and
+     Limbu-script Limbu.
+   Added all-caps French and German models (Latin-1 and UTF-8).
+   Added models for 191 additional Papua New Guinea languages (in
+     ASCII or UTF8 and UTF-16BE/UTF-16LE) built using Bible
+     translations from pngscriptures.org.
+   Added models for 314 additional languages (UTF-8, UTF-16BE, and
+     UTF-16LE) built from Bible translations from http://bible.is
+   Reduced maximum n-gram length from 10/12 to 8/10 and n-gram count
+     from 10,000 to 7,500, which reduced the language database size
+     by 40% with negligible impact on accuracy.
+   [languages.db: total languages=729+2, total models=2272+2, lang/code
+     pairs=2206+2]
+
+v1.10 2011-12-12:
+   Integrated iconv() transliteration into MkLangID, eliminating most
+     of the need for external conversions during training.
+   Augmented la-strings -O flag with optional directory name for the
+     location in which to store extracted strings.
+   Corrected handling of string extraction from standard input so that
+     data can now be piped into la-strings
+   Tweaked relative weights of language-identification score and other
+     factors in computing overall confidence score for a string.
+   Tweaked character-encoding detection threshold to reduce false
+     positives.
+   Improved ability to distinguish between big- and little-endian
+     16-bit strings, especially 16-bit ASCII that was previously
+     displayed as Chinese characters.
+   Added more discriminative training using similarity scores to
+     automatically select contrastive languages.
+   Individually weight stopgrams based on maximum probability in
+     contrastive languages and similarity to those languages, and drop
+     those with very low weights from the models.
+   Switched one of the existing ASCII English models to all-caps.
+   Added ASCII-16BE and ASCII-16LE models for Aragonese, Asturian,
+     West Frisian, Galician, Icelandic, Limburgian, Lombard,
+     Luxembourgish, Neapolitan, Occitan, Pennsylvania Dutch,
+     Sundanese, Tarantino, Venetian, and MS-Windows strings.
+   Added UTF-16BE and UTF-16LE models for Irish Gaelic and Scots Gaelic.
+   [languages.db: total languages=211+3, total models=702+3, lang/code
+     pairs=647+3]
+
+v1.09 2011-12-04:
+   Improved memory clean-up at exit.
+   Fixed additional crash related to the crash fixed in v1.08.
+   Fixed unpacking of packed trie for use by MkLangID.
+   Fixed major memory leaks in MkLangID, reducing its memory
+     requirements by a factor of three.
+   Added aligned-matching option, so that ngrams may be restricted to
+     start at a multiple of 2 or 4 bytes from the start of the file
+     (in training) or start of the candidate string.  Alignment is
+     selected with the new -A flag to MkLangID or via the new
+     Alignment: directive in *.lid files.   
+   Added -E flag to la-strings to display the encoding used to extract
+     each string.
+   Implemented cosine-similarity scoring between languages in a
+     database.  Augmented the MkLangID -R option to allow automatic
+     selection of discriminative-training languages based on cosine
+     value relative to the language being trained.
+   Tweaked character-set detection threshold to better find short
+     strings of e.g. UTF16 embedded inside longer stretches of
+     ASCII16.  Tweaked scoring of strings to avoid confusion between
+     UTF-8 and Latin-1/Windows-1252 encodings.
+   Incorporated language-identification scores into confidence score
+     for each extracted string.  As this rendered the old
+     character-bigram language models obsolete, removed the relevant
+     code for bigram models (-b option, 'mkbigram' program, etc.).
+   Rebuilt ASCII-16LE, UTF-16BE, and UTF-16LE models with two-byte
+     alignment.
+   Added ASCII-16BE models for Afrikaans, Albanian, Alsatian, Bavarian
+     German, Bosnian, Latin-script Bulgarian, Cebuano, Croatian,
+     Danish, Dutch, English, Esperanto, Faroese, Finnish, French,
+     German, Gullah, Hausa, Hawaiian, Hebrew, Hiligaynon, Iban,
+     Indonesian, Italian, Kalaalisut (Greenlandic), Kinyarwanda,
+     Kongo, Latin, Limburgian, Low Saxon (Plautdietsch), Manx Gaelic,
+     Norwegian, Palatinate German (Pfaelzisch), Piedmontese, Portugese
+     (Brazil and Portugal), Potawatomi, Romanian, Sanskrit,
+     Latin-script Serbian, Shona, Somali, Southern Sotho, Spanish,
+     Swahili, Swedish, Tagalog, Tok Pisin, Tsongan, Tswana, Uma,
+     Latin-script Uzbek, Xhosa, Zarma, and Zulu.
+   Added ASCII-16BE and ASCII-16LE models for Sundanese.
+   Added UTF-16BE and UTF-16LE models for Egyptian Arabic, Bashkir,
+     Chechen, Dari, Divehi, Gilaki, Gujarati, Haitian Creole, Hungarian,
+     Kazakh, Komi, Iraqi Kurdish, Lao, Marathi, Cyrillic-script
+     Mongolian, Ossetian, Sakha, Slovak, Cyrillic-script Tajik,
+     Tigrinya, and Cyrillic-script Uzbek.
+   [languages.db: total languages=211+3, total models=665+3, lang/code
+     pairs=610+3]
+
+v1.08 2011-11-29:
+   Generate bigram counts from trigram count table *before* filtering
+     out trigrams which are not language-indicative (e.g. digit
+     strings).
+   Tweaked character-encoding identification scan.
+   Precompute model-number-to-character-set mapping to speed up
+     automatic character set identification.  Additional performance
+     optimizations resulted in an overall 45% speed-up in language
+     identification.
+   Fixed memory leak.  Fixed crash when NOT using language
+     identification.
+   Modified database format for a further 20% reduction in size (35%
+     for crubadan.db) with negligible increase in runtime.  Databases
+     created with version 1.07 are still readable.
+   Rebuilt Afrikaans, Dutch, Limburgian, and Low_Saxon models with
+     mutual discriminative training.  Fixed Waray-Waray model.
+   [languages.db: total languages=211+3, total models=566+3, lang/code
+     pairs=512+3]
+
+v1.07 2011-11-17:
+   Implemented a new file format for the language identification
+     database which requires 55% less space and reduces runtime by 15%
+     due to improved spatial locality.  Because the new format is not
+     incrementally updateable, implemented conversion to and from the
+     old format for internal use in MkLangID.  Note that
+     identification may differ marginally due to a reduction in the
+     number of bits used to store each probability.
+   Language identification database is now memory mapped, allowing
+     multiple instances of the code to share memory.
+   Moved romanization code down into langident library and added a
+     standalone romanization program 'romanize'.
+   Added ISO 9984 romanization for Georgian, ISO 9985 romanization for
+     Armenian, ISO 11940 romanization for Thai, and modified ISO 15919
+     romanization for Devanagari / Indic scripts.   Augmented ISO 843
+     romanization with Extended Greek Unicode codepoints.
+   Added Pennsylvania Dutch language model trained from posts at
+     hiwwewiedriwwe.wordpress.com.
+   Added language models for romanized Arabic and Greek.
+   [languages.db: total languages=211+3, total models=566+3, lang/code
+     pairs=512+3]
+
+v1.06 2011-10-06:
+   Fixed bug in reading ngram-frequency lists in MkLangID (missed \f
+     case). 
+   Added optional ISO 9:1995 romanization of Cyrillic characters, a
+     merged ISO 233:1984/Buckwalter romanization of Arabic characters,
+     ISO 259 romanization of Hebrew characters, and ISO 843 romanization
+     of Greek characters.  Enable romanization with the -ur flag to
+     la-strings. 
+   Added Egyptian Arabic (UTF-8 and Windows-1256), Bashkir (UTF-8 and
+     Windows-1251), Chechen (UTF-8), Corsican (UTF-8 and Latin-1),
+     Cornish (ASCII), Divehi [Maldives] (UTF-8), Fiji Hindi (ASCII),
+     Gan Chinese (UTF-8), Gilaki (UTF-8 and Windows-1256), Hill Mari
+     (UTF-8), Kampangan (ASCII), Kazakh (UTF-8), Komi (UTF-8),
+     Limburgian (UTF-8, Latin-1, and ASCII-16LE), Min Nan (UTF-8),
+     Neapolitan (UTF-8 and Latin-1), Ossetian (UTF-8, ISO 8859-5,
+     KOI8-U, and Windows-1251), Piedmontese (UTF-8, Latin-1, and
+     ASCII-16LE), Sakha (UTF-8), Sinhalese (UTF-8, UTF-16BE, and
+     UTF-16LE), Latin-script Tajik (UTF-8), Tarantino (UTF-8 and
+     Latin-1), Latin-script Turkmen (UTF-8 and Latin-5), Upper Sorbian
+     (UTF-8 and Latin-2), and Venetian (UTF-8) models built from
+     Wikipedia data.
+   Added Dari (UTF-8), Arabic-script Kurdish (UTF-8 and Windows-1256),
+     Lao (UTF-8), and Oromo (ASCII) models built using text from
+     VOAnews.com
+   Added Samoan (UTF-8 and Latin-4) model built from Bible verses and
+     commentary as well as Wikipedia data.  Removed Crubadan model for
+     Samoan from default database.
+   Added faked UTF-8 language models for Buhid, Hanunoo, and Tagbanwa
+     (all Philippine languages) and traditional-script Mongolian.
+     Removed faked Lao and Sinhalese models.
+   Added more sample test texts taken from Wikipedia front pages.
+   [languages.db: total languages=210+3, total models=562+3, lang/code
+     pairs=511]
+
+v1.05 2011-09-29:
+   Reduced UTF-16 false positives when using automatic character-set
+     identification. 
+   Added -8b/-8l flags to MkLangID to eliminate the need for temporary
+     files when generating UTF-16 models from UTF-8 training data, and
+     -1 flag to eliminate temporary files when generating UTF-8 models
+     from Latin-1 training data.
+   Added -R flag to MkLangID and corresponding code in 'la-strings' to
+     support stop-grams for one language relative to one or more other
+     closely-related languages for better discrimination.  Rebuilt
+     Latin-1/UTF-8 model pairs as related languages to allow proper
+     selection of the encoding when most of the text is in the 7-bit
+     ASCII range.  Rebuilt various other closely-related languages
+     with stop-grams.
+   Added sample test texts taken from the front pages of various
+     language versions of Wikipedia and a script to combine them
+     into a single file which intersperses random binary data between
+     the texts.
+   Renamed 'vocab-lists' directory to 'models' and changed extension
+     of text-file language models from .vocab to .lid.
+   Added Alsatian/Alemannic [Swiss German] (UTF-8 and Latin-1),
+     Aragonese (UTF-8 and Latin-1), Aromanian [Macedo-Romanian] (UTF-8
+     and Latin-1), Asturian (UTF-8 and Latin-1), Aymara (UTF-8 and
+     Latin-1), Banjar (UTF-8 and Latin-1), Bengali (UTF-8, UTF-16BE,
+     and UTF-16LE), Bicolano (UTF-8 and Latin-1), Bishnupriyan (UTF-8,
+     UTF-16BE, and UTF-16LE), Cantonese (UTF-8, UTF-16BE, and
+     UTF-16LE), Chuvash (UTF-8, UTF-16BE, UTF-16LE, KOI8-U, and
+     Windows-1251), Galician (UTF-8 and Latin-1), Bavarian German
+     (UTF-8 and Latin-1), Palatinate German (UTF-8 and Latin-1), Ido
+     (UTF-8 and Latin-1), Igbo (UTF-8), romanized Javanese (UTF-8 and
+     Latin-1), Kalaalisut [Greenlandic] (ASCII and ASCII-16LE), Khmer
+     (UTF-8, UTF-16BE, and UTF-16LE), Kinyarwanda (ASCII and
+     ASCII-16LE), Kongo (ASCII and ASCII-16LE), Latin-script Kurdish
+     (UTF-8 and Latin-1), Latin-script Ladino (UTF-8 and Latin-1),
+     Hebrew-script Ladino (UTF-8, UTF-16BE, UTF-16LE, and ISO 8859-8),
+     Lingala (UTF-8), Lombard (UTF-8 and Latin-1), Luxembourgish
+     (UTF-8 and Latin-1), Maltese (UTF-8), Newar/Nepal-Bhasa (UTF-8,
+     UTF-16BE, and UTF-16LE), Norwegian Nynorsk (UTF-8 and Latin-1),
+     Occitan (UTF-8), Papiamentu (UTF-8), Punjabi (UTF-8, UTF-16BE,
+     and UTF-16LE), Sanskrit (UTF-8, UTF-16BE, and UTF-16LE),
+     Sundanese (UTF-8), Tajiki (UTF-8 and Windows-1251), Tibetan
+     (UTF-8, UTF-16BE, and UTF-16LE), Tigrinya (UTF-8), Tok Pisin
+     (ASCII and ASCII-16LE), Tongan (UTF-8), Walloon (UTF-8),
+     Waray-Waray (UTF-8), and Zazaki (UTF-8) Wikipedia models.
+   Added ASCII-16LE models for Cebuano, Danish, Dutch, American
+     English, Esperanto, Finnish, German, Gullah, Hawaiian, romanized
+     Hebrew, Hiligaynon, Iban, Latin, Manx Gaelic, Norwegian,
+     Plautdietsch (Low Saxon), Potawatomi, Itrans-romanized Sanskrit,
+     Shona, Somali, Southern Sotho, Swedish, Tagalog, Tswana, Tsongan,
+     Uma, Latin-script Uzbek, Xhosa, Zarma, and Zulu.
+   Removed faked Bengali, Gujarati, and Khmer models.  Added faked
+     models for Gurmukhi-script Panjabi (UTF-8) and Tagalog-script
+     Tagalog (UTF-8).
+   [languages.db: total languages=181+5, total models=503+5, lang/code
+     pairs=457]
+
+v1.04 2011-09-14:
+   Tripled the speed of language identification with the default
+     languages.db.  The speed advantage will increase as more models
+     are added.
+   'whatlang' now uses the same search strategy for the language
+     database file as 'la-strings'
+   Brought documentation files up to date.
+   Added Gujarati (UTF-8) and Marathi (UTF-8) models based on text
+     from Wikipedia.  Added Latin-script Serbian (Latin-2 and UTF-8)
+     from BBC news texts and Bosnian (UTF-8 and Latin-2) and Croatian
+     (UTF-8 and Latin-2) Wikipedia models with double the standard
+     number of n-grams to attempt better discrimination between the
+     languages.
+   [languages.db: total languages=144+18, total models=344+18]
+
+v1.03 2011-09-12:
+   Added -i+ flag to la-strings and corresponding code in mklangid.C to
+     support "friendly" long language names in addition to language
+     codes.
+   Added line-by-line language identification mode to 'whatlang';
+     enable with -b1.
+   Added Crimean Tatar (UTF-8), Faroese (Latin-1),
+     romanized Hebrew (ASCII), Quichua-Chimborazo [Ecuador]
+     (UTF-8 and Windows-1252), Shona [Zimbabwe/Zambia] (ASCII), Tatar
+     [former Soviet republics] (UTF-8) and Zokam/Zomi (ASCII) language
+     models based on Bible translations.
+   Added Hawaiian (UTF-8 and Latin-1), Ilocano (UTF-8 and Latin-1),
+     Malay (UTF-8), Navajo (UTF-8), Scots (ASCII), Romansh (UTF-8 and
+     Latin-1), Volapuk (UTF-8 and Latin-1), and West Frisian (UTF-8
+     and Latin-1) models based on text from Wikipedia.  
+   Added ITRANS-romanized Sanskrit (ASCII) model.
+   Added UTF-16BE and UTF-16LE models converted from UTF-8 with iconv
+     for Armenian, Azeri, Northern Azeri, Belarusan, Cherokee, Coptic,
+     Crimean Tatar, Georgian, Greek, Japanese, Korean, Koya, Sorani
+     Kurdish, Malayalam, Myanmar, Pashto, Serbian, Tatar, Thai, and
+     Urdu. Rebuilt existing models to include long language name. 
+   Added Code Page 737 (Greek) to supported character sets.
+   [languages.db: total languages=142+18, total models=336+18]
+
+v1.02 2011-09-06:
+   Added Amuzgo de Guerrero (UTF-8), Azerbaijani (UTF-8 and Latin-2),
+     Northern Azeri/Azeri Turk [Latin script] (UTF-8), Southern Azeri
+     [Arabic script] (UTF-8), Belarusan/Belorussian (UTF-8 and
+     Windows-1251), Catalan (Windows-1250 and UTF-8), Cherokee
+     (UTF-8), Chinanteco de Comaltepec (UTF-8), Simplified Chinese
+     (UTF-8, Big5, Big5 with extra spaces, GB-2312, GBK, and GBK with
+     extra spaces), Traditional Chinese (UTF-8, Big5, Big5 with extra
+     spaces, GB-2312, GBK, and GBK with extra spaces),
+     Hilgaynon/Illongo (ASCII), Hmar (UTF-8 and Latin-1), Iban
+     [Malaysia] (ASCII), Jacalteco/Popti' (UTF-8 and ASCII), Kekchi
+     (UTF-8), Klingon (ASCII), Telugu-script Koya (UTF-8),
+     Mam--Comitancillo (UTF-8 and ASCII), Mam--Todos Santos (UTF-8 and
+     ASCII), Manx Gaelic [Isle of Man] (ASCII), Mongolian (UTF-8 and
+     Windows-1251), Moore [Burkina Faso] (UTF-8), Ndebele (ASCII),
+     Orya (UTF-8 and Latin-1), Pashto (UTF-8), Potawatomi (ASCII),
+     West Central Quiche/K'iche' (ASCII), Slovenian (Windows-1252 and
+     UTF-8), Somali (ASCII), Sorani/Central Kurdish (UTF-8), Syriac
+     (UTF-8), Uma [Indonesia] (ASCII), Uspanteco (ASCII), and
+     Cyrillic-script Uzbek (UTF-8 and Windows-1251) language models
+     built from Bible text.
+   Added Scots Gaelic (UTF8 and Latin-1) built from web text.
+   Removed faked Cherokee language model.
+   Fixed Ukrainian (KOI8-U) model, which incorrectly flagged its
+     encoding as KOI8-R, resulting in heavily segmented extraction. 
+   Added ASCII-32BE and ASCII-32LE character sets to correspond
+     exactly to the GNU strings 'B' and 'L' encodings, which was not
+     the case with the UTF-32BE and UTF-32LE for which those were
+     previously the short names.
+   Updated Windows-1256 character table to avoid fragmenting Arabic
+     texts.
+   Added -fc flag to MkLangID to support trigram statistics files from
+     the Crubadan project.  Added processed version of Crubadan
+     trigram data package to generate crubadan.db database with 452
+     models covering 437 languages (note that except for a few that
+     were converted to Latin-1, all models use the UTF-8 encoding).
+     Added Bicolano, Fijian, Frisian, Ilocano, Javanese, Kalaallisut,
+     Kurdi, Maltese, Malay, Norwegian Bokmal, Oromo, Papiamentu,
+     Samoan, Sunda, Tajiki, Tibetan, Tongan, Tok Pisin, Venda,
+     Walloon, and Western Farsi models to default languages.db build,
+     as these are the Crubadan languages with the highest trigram
+     counts for which there were not yet real language models.
+     Removed faked Javanese and Tibetan models.
+   [languages.db: total languages=127+21, total models=262+24]
+
+v1.01 2011-08-31:
+   Added "whole-file" mode to 'whatlang', where it reads at most 1MB
+     of the file and outputs a single set of guesses based on that
+     text.  Use -b0 to select this mode.
+   Added -u flag to la-strings to use libiconv to convert extracted
+     text to Unicode for ease of reading results when multiple
+     character sets are present in the input.  The trivial conversions
+     for Latin-1, ASCII-16, UTF-16, and UTF-32 are available even if
+     libiconv is not available on the compilation platform.
+   Added UTF8: directive in frequency lists given to MkLangID to
+     define fake language models consisting of just the UTF-8
+     codepoints which are valid for a particular script.  Added faked
+     language models for Aramaic, Balinese, Batak, Bengali, Buginese,
+     Cherokee, Gujarati, Javanese, Khmer, Lao, Sinhala, and Tibetan.
+   Added numerous translations of the Bible as language models:
+     Afrikaans (UTF-8), Albanian (UTF-8), Amharic (UTF-8, UTF-16BE,
+     and UTF-16LE), Armenian (UTF-8 and ArmSCII-8), Basque (UTF-8),
+     Breton (UTF-8), Cyrillic-script Bulgarian (UTF-8, iso-8859-5,
+     UTF-16BE, UTF-16LE, and Windows-1251), Burmese/Myanmar (UTF-8),
+     Cebuano (ASCII), Chamorro (UTF-8), Chinese (UTF-8 Pinyin), Coptic
+     Egyptian (UTF-8), Esperanto (ASCII), Estonian (UTF-8 and
+     Latin-2), Farsi (UTF-8, UTF-16BE, and UTF-16LE), Georgian (UTF-8
+     and GEOSTD8), Gothic (UTF-8), Gullah (ASCII), Hebrew (UTF-8,
+     UTF-16BE, UTF-16LE, and iso-8859-8), Hawaiian (ASCII), Hindi
+     (UTF-8, UTF-16BE, and UTF-16LE), Icelandic (UTF-8 and Latin-1),
+     Irish Gaelic (UTF-8 and Latin-1) Kabyle [Algeria] (UTF-8),
+     Kannada (UTF-8, UTF-16BE, and UTF-16LE), Kyrgyz (UTF-8, UTF-16BE,
+     and UTF-16LE), Latin (ASCII), Latvian (UTF-8 and Latin-2),
+     Lithuanian (UTF-8 and Latin-2), Macedonian (UTF-8, iso-8859-5,
+     UTF-16BE, UTF-16LE, and Windows-1251), Malagasy (UTF-8),
+     Malayalam (UTF-8), Maori (UTF-8), Nahuatl de Guerro (UTF-8 and
+     Latin-1), Nepali (UTF-8, UTF-16BE, and UTF-16LE), Northern Sotho
+     (UTF-8), Norwegian (UTF-8), Plautdietsch [Low German] (ASCII),
+     Polish (Latin-2?), Romany (UTF-8), Russian (UTF-8, iso-8859-5,
+     KOI8-R, UTF-16BE, UTF-16LE, and Windows-1251), Scots Gaelic
+     (ASCII), Slovak (UTF-8), Southern Sotho (ASCII), Tagalog (UTF-8),
+     Tamil (UTF-8, TSCII, UTF-16BE, and UTF-16LE), Telugu (UTF-8,
+     UTF-16BE, and UTF-16BE), Tsongan (ASCII), Tswana (ASCII),
+     Ukrainian (UTF-8, iso-8859-5, KOI8-U, UTF-16BE, UTF-16LE, and
+     Windows-1251), Latin script Uzbek (ASCII), Vietnamese (UTF-8 and
+     VISCII), Welsh/Cymraeg (Latin-1), Wolof (UTF-8), Xhosa (ASCII),
+     Zarma/Djerma [Niger] (UTF-8), and Zulu (ASCII).
+   Added Yiddish (UTF-8, UTF-16BE, UTF-16LE, and iso-8859-8) language
+     model trained on articles from www.lebnsfragn.com.
+   Added Arabic (UTF-16BE, UTF-16LE, and Windows-1256), Chinese
+     (UTF-16BE and UTF-16LE), Czech (Latin-2), Danish (Latin-1), Dutch
+     (Latin-1), Finnish (Latin-1), Italian (Latin-1), Japanese
+     (UTF-8), Spanish (Latin-1), Swedish (Latin-1), and Urdu
+     (Windows-1256) models, converted with iconv.  Added Hindi (ISCII)
+     model converted with Gnu Emacs.
+
+v1.00 2011-08-26:
+   la-strings now appends a question mark to identified languages when
+     confidence is low.  Smoothing method changed to exponential decay
+     because it works at least as well but is faster and simpler.
+   Changed default number of languages displayed (-I flag) to 2.
+   Added -nn flag to MkLangID to skip n-grams starting with two digits
+     as well as n-grams containing newlines, as strings of digits are
+     not informative for language identification.
+   Tweaked definition of CP866 character set and added RUSCII variant.
+     Added CP915 and CP28595 as aliases for ISO-8859-5.  Made
+     ISO-8859-7 a specificaly supported character set instead of an
+     alias for 8859-6.
+   Corrected suffix filtering to remove an n-gram even if there are
+     multiple continuations in the training data, as long as the most
+     frequent one occurs in at least the proportion specified to
+     MkLangID with -a.  Reduced default for -a from 0.99 to 0.90 to
+     permit a greater diversity of n-grams in the model; with
+     sufficient data (>50MB?), this can be lowered to 0.85 or even
+     0.80.
+   Added Amharic (UTF-8), Armenian (UTF-8), Czech (UTF-8), Danish
+     (UTF-8), Dutch (UTF-8), Finnish (UTF-8), Greek (UTF-8), Japanese
+     (EUC-JP, patent texts), Mapudungun (Latin-1), Quechua (UTF-8),
+     Swedish (UTF-8), and Yoruba (UTF-8) language models.
+   Added Arabic (ISO-8859-6), Chinese (GB-2312 and Big5), Greek
+     (ISO-8859-7) and Thai (TIS-620) language models built by
+     converting the UTF-8 training data with iconv.  Added Japanese
+     (Shift-JIS) model built by converting the EUC-JP training data
+     with iconv.  Added Korean (UTF-8) model built by converting the
+     EUC-KR training data with iconv.  Added Armenian (ArmSCII-8)
+     model built by converting the UTF-8 data with iconv.
+
+v1.00rc2 2011-08-22:
+   Store language/region/encoding/source in word-list file
+     (MkLangID -w) and parse them on reading so that it is no longer
+     necessary to pass those four values on the command line when
+     training.  Removed index_vocab.sh as it is now superfluous.
+   Added bigram byte model to language identification models.  Because
+     this is a much weaker model than the long ngrams, it is given
+     very low weight (basically functions as a tie-breaker or when
+     there are no hits on long ngrams), and the existing bigram
+     character models for string scoring are retained (they are
+     stronger for multi-byte character sets).
+   Fixed MkLangID newline skipping to eliminate the remaining n-grams
+     containing newlines when -n is specified.
+   Added Albanian (Latin-1 and ASCII-16LE), Bosnian (Latin-1 and
+     ASCII-16LE), Latin-script Bulgarian (ASCII and ASCII-16LE),
+     Croatian (Latin-2 and ASCII-16LE), Brazilian Portugese (Latin-1
+     and ASCII-16LE), German (UTF-8), Haitian Creole (UTF-8), Hausa
+     (ASCII and ASCII-16LE), Hungarian (UTF-8), Italian (UTF-8),
+     Indonesian (ASCII and ASCII-16LE), Korean (EUC-KR), European
+     Portugese (Latin-1 and ASCII-16LE), Romanian (Latin-2 and
+     ASCII-16LE), Swahili (ASCII and ASCII-16LE), Serbian (Latin-1),
+     Thai (UTF-8), Turkish (Latin-5 and ASCII-16LE), and Urdu (UTF-8)
+     language models to the distribution.
+
+v1.00rc1 2011-08-16:
+   Added -2 options to MkLangID to expand input bytes to 16 bits for
+     "wide ASCII" without the need to actually convert the files first.
+   Added -n option to MkLangID to eliminate (most) n-grams containing
+     newlines as well as those starting with a tab or blank from the
+     language model.
+   Added optional non-default threshold to la-string -S option.
+   Added index_vocab.sh script and a variety of word frequency lists.
+     These lists now replace language.db in the distribution, as they
+     will be used to create language.db but take up much less space in
+     the archive.
+   Tweaked length increments when computing n-grams in MkLangID.
+     Training now uses more memory but runs in 2/3 the time.
+   Fixed segfault.
+   Fixed failure to weight scores when adding over the smoothing window.
+
+v1.00beta2 2011-08-15:
+   Fixed incorrect (case-folded) matching of single-char encoding names.
+   Fixed segfault when unable to open language identification database.
+   Eliminate duplicate language names in output.
+   Added option for MkLangID to load frequency lists rather than raw
+     text, in either the format in which it writes them with -w or the
+     format used by the TextCat Perl script.  Also included GPLed
+     frequency lists from mguesser in the distribution, along with a
+     script (index_mguesser.sh) to add them to the language database.
+   Added single-char encoding names 'u' (UTF-8) and 'e' (EUC) for
+     compatibility with upcoming update to GNU strings.
+   Added Windows-874/CP874 as aliases for TIS-620, as they are
+     essentially TIS-620 plus a few punctuation marks copied from
+     Win1251.  Added some additional aliases for compatibility with
+     the mguesser data files, though not all of them will be exactly
+     correct.
+
+v1.00beta 2011-07-24:
+   Fixed memory leak when automatically identifying character encodings.
+   Fixed parsing of -e parameter to properly handle lists of more than
+     two encodings.
+   Added sample language model database with n-grams up to length 15
+     bytes built from English, French, Spanish, Chinese, and Arabic
+     GigaWord newswire corpora and Korean Press Agency data (80-200MB
+     per source).  Note that all language data uses the UTF-8 encoding
+     except Korean, which is in EUC-KR.
+
+v1.00alpha 2011-07-22:
+   First public release.
+   Added language identification and automatic character encoding
+     identification.
+
+v0.9:
+   Fixed EUC-JP initialization.
+   Added UTF-7, HZ, and Ascii85 seven-bit encodings.
+   Added ShiftJIS character encoding.
+   Added ISO/IEC-6937 encoding.
+   Added more ISO-8859-x encodings.
+   Added several Windows-125x encodings.
+   Added Kamenicky, Mazovia, MIK, and IranSystem encodings.
